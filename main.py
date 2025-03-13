@@ -1,4 +1,5 @@
 from file_processing import load_data
+from plotting_part import plot_variables
 
 # Define CSV file paths for control (non-shaded) and shaded conditions
 csv_files = {
@@ -25,30 +26,6 @@ csv_files = {
 means_data = load_data(csv_files)
 print(means_data)
 
+# Plot the data
+plot_variables(means_data, save_dir='plots')
 
-import matplotlib.pyplot as plt
-import pandas as pd
-
-# Access temperature data
-t_shaded_hourly = means_data['temperature']['shaded']['hourly']
-t_control_hourly = means_data['temperature']['control']['hourly']
-# Access PAR data
-par_shaded_hourly = means_data['photosyntheticallyActiveRadiation']['shaded']['hourly']
-par_control_hourly = means_data['photosyntheticallyActiveRadiation']['control']['hourly']
-
-print(t_shaded_hourly.head())
-print(t_control_hourly.head())
-print(par_shaded_hourly.head())
-print(par_control_hourly.head())
-
-# create the plot
-plt.figure(figsize=(12, 6))
-
-# plot temperature data
-plt.plot(t_shaded_hourly.index, t_shaded_hourly['temperature'], label='Shaded temperature', color='blue')
-plt.ylabel('Temperature (°C)')
-plt.title('Hourly Temperature in Shaded conditions')
-plt.legend()
-plt.show()
-
-plt.savefig('temperature_shaded.png', dpi=300, bbox_inches='tight')
