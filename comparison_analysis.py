@@ -1,69 +1,51 @@
 import matplotlib.pyplot as plt
-import seaborn as sns
-import pandas as pd
 import os
 
-def plot_overlay(df_control, df_shaded, column, month):
-    """Plots control vs. shaded on the same plot, overlaying hourly averages of each day in the selected month."""
-    comparison_folder = "plots/comparisons"
-    os.makedirs(comparison_folder, exist_ok=True)
+def plot_shaded_vs_control(means_data, save_dir='plots/shaded_vs_control'):
+    """
+    Plots the mean values of all variables for control and shaded treatments together, using monthly data.
+    Creates separate plots for each month and saves them in a folder structure.
 
-    # Filter data for the selected month
-    df_control_month = df_control[df_control['Month'] == month]
-    df_shaded_month = df_shaded[df_shaded['Month'] == month]
+    Parameters:
+        means_data (dict): The dictionary containing the data.
+        save_dir (str): The directory where plots will be saved. Default is 'plots/shaded_vs_control'.
+    """
+    # Create the save directory if it doesn't exist
+    if not os.path.exists(save_dir):
+        os.makedirs(save_dir)
 
-    plt.figure(figsize=(10, 6))
+    # Loop through each variable (e.g., temperature, humidity, PAR, etc.)
+    for variable, treatments in means_data.items():
 
-    # Loop through each day and plot separately for better visualization
-    for date in df_control_month['Date'].unique():
-        df_control_day = df_control_month[df_control_month['Date'] == date]
-        df_shaded_day = df_shaded_month[df_shaded_month['Date'] == date]
+        # Extract monthly data for control and shaded treatments
+        control_monthly = treatments['control']['month']
+        shaded_monthly = treatments['shaded']['month']
 
-        plt.plot(df_control_day['Hour'], df_control_day[column], label=f"Control {date}", color="orange", alpha=0.3)
-        plt.plot(df_shaded_day['Hour'], df_shaded_day[column], label=f"Shaded {date}", color="blue", alpha=0.3)
+        # Loop through each month
+        for month in control_monthly.keys():
 
-    plt.xlabel("Time (Hourly)")
-    plt.ylabel(column)
-    plt.title(f"Overlay of {column} - {month} (Hourly Averages per Day)")
-    plt.legend([], [], frameon=False)  # Hides individual legends to avoid clutter
-    plt.grid(True)
+            # Create a plot for the current month
+            plt.figure(figsize=(12, 6))
 
-    plt.savefig(f"plots/comparisons/{column}_Overlay_{month}.png", dpi=300)
-    plt.close()
+            # Plot control data for the month
+            control_data = control_monthly[month]
+            if 'daily' in control_data and 'mean' in control_data['daily'] and not control_data['daily']['mean'].empty:
+                plt.plot(control_data['daily']['mean'].index, control_data['daily']['mean'][variable], label=f'Control {month}', color='blue', linestyle='-', linewidth=1)
 
+            # Plot shaded data for the month
+            shaded_data = shaded_monthly[month]
+            if 'daily' in shaded_data and 'mean' in shaded_data['daily'] and not shaded_data['daily']['mean'].empty:
+                plt.plot(shaded_data['daily']['mean'].index, shaded_data['daily']['mean'][variable], label=f'Shaded {month}', color='orange', linestyle='-', linewidth=1)
 
-def plot_difference(df_control, df_shaded, column, month):
-    """Computes and plots the hourly differences (Shaded - Control) per day in the selected month."""
-    comparison_folder = "plots/comparisons"
-    os.makedirs(comparison_folder, exist_ok=True)
+            # Add labels, title, and legend
+            plt.xlabel('Time')
+            plt.ylabel(variable.capitalize())
+            plt.title(f'Monthly {variable.capitalize()} - Control vs Shaded ({month})')
+            plt.legend()
+            plt.grid(True, linestyle='--', alpha=0.6)
 
-    # Filter data for the selected month
-    df_control_month = df_control[df_control['Month'] == month]
-    df_shaded_month = df_shaded[df_shaded['Month'] == month]
-
-    plt.figure(figsize=(10, 6))
-
-    # Loop through each day and plot separately
-    for date in df_control_month['Date'].unique():
-        df_control_day = df_control_month[df_control_month['Date'] == date].set_index("Hour")
-        df_shaded_day = df_shaded_month[df_shaded_month['Date'] == date].set_index("Hour")
-
-        # Compute difference
-        df_diff = df_shaded_day[column] - df_control_day[column]
-
-        # Plot positive and negative differences in different colors
-        plt.plot(df_diff[df_diff >= 0].index, df_diff[df_diff >= 0], color="green", label=f"Δ {column} {date} (Positive)", alpha=0.3)
-        plt.plot(df_diff[df_diff < 0].index, df_diff[df_diff < 0], color="red", label=f"Δ {column} {date} (Negative)", alpha=0.3)
-
-    plt.axhline(0, linestyle="--", color="black")
-
-    plt.xlabel("Time (Hourly)")
-    plt.ylabel(f"Δ {column}")
-    plt.title(f"Difference (Shaded - Control) for {column} - {month} (Hourly Differences per Day)")
-    plt.legend([], [], frameon=False)  # Hide individual legends for clarity
-    plt.grid(True)
-
-    plt.savefig(f"plots/comparisons/{column}_Difference_{month}.png", dpi=300)
-    plt.close()
-
-
+            # Save the plot
+            filename = os.path.join(save_dir, f'{variable}_control_vs_shaded_{month}.png')
+            print(f"Saving plot to: {filename}")
+            plt.savefig(filename, dpi=300, bbox_inches='tight')
+            plt.close()  # Close the plot to free up memory
