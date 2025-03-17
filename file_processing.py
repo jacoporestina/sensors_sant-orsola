@@ -1,101 +1,64 @@
 import pandas as pd
 
-def load_data(csv_files):
-    """Loads CSV data, converts 'receivedAt' to datetime, and calculates both hourly and daily averages."""
+def calculate_statistics(df, freq):
+    """Helper function to calculate mean, max, and min for a given frequency."""
+    stats = {
+        'mean': df.select_dtypes(include='number').resample(freq).mean(),
+        'max': df.select_dtypes(include='number').resample(freq).max(),
+        'min': df.select_dtypes(include='number').resample(freq).min(),
+    }
+    return stats
 
+def load_data(csv_files):
+    """Loads CSV data, converts 'receivedAt' to datetime, and calculates hourly, daily, weekly, and monthly statistics."""
     means_data = {}
 
-    for variable, treatment in csv_files.items():
-        # Create a subdictionary for each variable
+    for variable, treatment_dict in csv_files.items():
         means_data[variable] = {}
 
-        for treatment, file in treatment.items():
-            # Load csv file into a Dataframe
+        for treatment, file in treatment_dict.items():
+            # Load CSV file into a DataFrame
             df = pd.read_csv(file, delimiter=';')
-            #print(df.head())
 
-            # Transform receivedAt into readble pd dates
+            # Convert 'receivedAt' to datetime and set as index
             df['receivedAt'] = pd.to_datetime(df['receivedAt'])
-            #print(df['receivedAt'].dtype)
-            #print(df.head())
-
             df.set_index('receivedAt', inplace=True)
 
-            # If the variable is PAR, filter the data to include only the photoperiod (PAR > 0)
+            # Filter PAR data to include only the photoperiod (PAR > 0)
             if variable == 'photosyntheticallyActiveRadiation':
                 df = df[df['photosyntheticallyActiveRadiation'] > 0]
 
-            # Group data by month
+            # Initialize dictionaries to store statistics
+            monthly_stats = {}
+            weekly_stats = {}
+            daily_stats = {}
+
+            # Calculate monthly statistics
             monthly_groups = df.groupby(pd.Grouper(freq='M'))
-
-            # Initialize a dictionary to store monthly data
-            monthly_data = {}
-
-            # Loop through each month
             for month, month_data in monthly_groups:
-                # Calculate hourly and daily means, max and min for the month
-                daily_means_month = month_data.select_dtypes(include='number').resample('D').mean()
-                daily_max_month = month_data.select_dtypes(include='number').resample('D').max()
-                daily_min_month = month_data.select_dtypes(include='number').resample('D').min()
-
-                # Store the monthly data
-                monthly_data[month.strftime('%Y-%m')] = {
-                    'daily' : {
-                        'mean' : daily_means_month,
-                        'max' : daily_max_month,
-                        'min' : daily_min_month,
-                    }
+                monthly_stats[month.strftime('%Y-%m')] = {
+                    'daily': calculate_statistics(month_data, 'D')
                 }
 
-            # Group the data by week
+            # Calculate weekly statistics
             weekly_groups = df.groupby(pd.Grouper(freq='W'))
-
-            # Initialize a dictionary to store weekly data
-            weekly_data = {}
-
-            # Loop through each week
             for week, week_data in weekly_groups:
-                # Calculate hourly and daily means for the week
-                hourly_means_week = week_data.select_dtypes(include='number').resample('H').mean()
-                hourly_max_week = week_data.select_dtypes(include='number').resample('H').max()
-                hourly_min_week = week_data.select_dtypes(include='number').resample('H').min()
-
-                # Store the weekly data
-                weekly_data[week.strftime('%Y-%U')] = {
-                    'hourly': {
-                        'mean' : hourly_means_week,
-                        'max' : hourly_max_week,
-                        'min' : hourly_min_week
-                    },
+                weekly_stats[week.strftime('%Y-%U')] = {
+                    'hourly': calculate_statistics(week_data, 'H')
                 }
 
-            # Group the data by day
+            # Calculate daily statistics
             daily_groups = df.groupby(pd.Grouper(freq='D'))
-
-            # Initialize a dictionary to store daily data
-            daily_data = {}
-
-            # Loop through each day
             for day, day_data in daily_groups:
-                # Calculate hourly means for the day
-                hourly_means_day = day_data.select_dtypes(include='number').resample('H').mean()
-                hourly_max_day = day_data.select_dtypes(include='number').resample('H').max()
-                hourly_min_day = day_data.select_dtypes(include='number').resample('H').min()
-
-                # Store the daily data
-                daily_data[day.strftime('%Y-%m-%d')] = {
-                    'hourly': {
-                        'mean' : hourly_means_day,
-                        'max' : hourly_max_day,
-                        'min' : hourly_min_day,
-                    }
+                daily_stats[day.strftime('%Y-%m-%d')] = {
+                    'hourly': calculate_statistics(day_data, 'H')
                 }
 
-            # Store the monthly, weekly, and daily data into the dictionary
+            # Store the statistics in the dictionary
             means_data[variable][treatment] = {
-                'month': monthly_data,
-                'week': weekly_data,
-                'day': daily_data,
+                'month': monthly_stats,
+                'week': weekly_stats,
+                'day': daily_stats,
             }
 
     return means_data
