@@ -1,0 +1,4 @@
+ANOVA table for vaporPressureDeficit:
+                  df        sum_sq       mean_sq            F         PR(>F) p_value
+C(treatment)     1.0  13349.577768  13349.577768  1829.606892  3.177171e-262   0.000
+Residual      1504.0  10973.813583      7.296419          NaN            NaN     nan

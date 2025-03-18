@@ -1,0 +1,3 @@
+Levene's test result for temperature:
+Test statistic: 2.8434603693871345
+p-value: 0.000

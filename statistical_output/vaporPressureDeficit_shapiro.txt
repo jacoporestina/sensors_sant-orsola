@@ -1,0 +1,3 @@
+Shapiro-Wilk test result for vaporPressureDeficit:
+Test statistic: 0.9401312470436096
+p-value: 0.000
