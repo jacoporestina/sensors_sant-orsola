@@ -1,4 +1,3 @@
-import pandas as pd
 
 def calculate_means(dictionary_data):
     """
