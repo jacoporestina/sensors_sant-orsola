@@ -1,10 +1,9 @@
 from file_processing import load_data
 from data_to_csv import transform_csv
 from means_calculation import calculate_means
-from statistical_analysis import run_anova_and_tests
-from plotting_part import plot_variables
+from plot_data import plot_variables
 from plot_comparison import plot_shaded_vs_control
-from max_temperature import plot_max_temperature
+from plot_max_t import plot_max_temperature
 import pandas as pd
 
 
@@ -77,8 +76,7 @@ df = pd.DataFrame(dictionary_data_to_csv)
 df.to_csv("dictionary_data.csv", index=False)
 print("dictionary_data_to_csv has been exported to dictionary_data.csv")
 
-# Run anova and check for assumptions
-#run_anova_and_tests(dictionary_data)
+
 
 # Plot the data
 #plot_variables(means_data, save_dir='plots')
