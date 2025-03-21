@@ -1,9 +1,13 @@
 from file_processing import load_data
+from data_to_csv import transform_csv
 from means_calculation import calculate_means
 from statistical_analysis import run_anova_and_tests
 from plotting_part import plot_variables
 from plot_comparison import plot_shaded_vs_control
 from max_temperature import plot_max_temperature
+import json
+import pandas as pd
+from pandas import Timestamp
 
 # Define CSV file paths for control (non-shaded) and shaded conditions
 csv_files = {
@@ -60,9 +64,19 @@ dictionary_data = load_data(csv_files)
 #print(dictionary_data['temperature']['control']['repetition_2']['month']['2024-07'])
 
 # Calculate means across repetions in dictionary_data
-means_data = calculate_means(dictionary_data)
+#means_data = calculate_means(dictionary_data)
 #print(means_data['temperature']['control']['month']['2024-07'])
 #print(means_data['photosyntheticallyActiveRadiation']['shaded']['day']['2024-08-15'])
+
+# Flatten the dictionary
+dictionary_data_to_csv = transform_csv(dictionary_data)
+
+# Convert to a DataFrame
+df = pd.DataFrame(dictionary_data_to_csv)
+
+# Save to CSV
+df.to_csv("dictionary_data_to_csv.csv", index=False)
+print("dictionary_data_to_csv has been exported to dictionary_data_to_csv.csv")
 
 # Run anova and check for assumptions
 #run_anova_and_tests(dictionary_data)
@@ -71,7 +85,7 @@ means_data = calculate_means(dictionary_data)
 #plot_variables(means_data, save_dir='plots')
 
 # Plot the comparisons between treatments
-plot_shaded_vs_control(means_data, save_dir='plots/shaded_vs_control')
+#plot_shaded_vs_control(means_data, save_dir='plots/shaded_vs_control')
 
 # Plot comparisons between treatments of max temperatures
 #plot_max_temperature(means_data, save_dir='plots/max_temperature')
