@@ -5,9 +5,8 @@ from statistical_analysis import run_anova_and_tests
 from plotting_part import plot_variables
 from plot_comparison import plot_shaded_vs_control
 from max_temperature import plot_max_temperature
-import json
 import pandas as pd
-from pandas import Timestamp
+
 
 # Define CSV file paths for control (non-shaded) and shaded conditions
 csv_files = {
@@ -75,8 +74,8 @@ dictionary_data_to_csv = transform_csv(dictionary_data)
 df = pd.DataFrame(dictionary_data_to_csv)
 
 # Save to CSV
-df.to_csv("dictionary_data_to_csv.csv", index=False)
-print("dictionary_data_to_csv has been exported to dictionary_data_to_csv.csv")
+df.to_csv("dictionary_data.csv", index=False)
+print("dictionary_data_to_csv has been exported to dictionary_data.csv")
 
 # Run anova and check for assumptions
 #run_anova_and_tests(dictionary_data)
