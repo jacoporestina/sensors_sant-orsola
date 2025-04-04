@@ -1,3 +1,0 @@
-Shapiro-Wilk test result for humidity:
-Test statistic: 0.9401312470436096
-p-value: 0.000

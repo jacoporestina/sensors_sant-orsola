@@ -1,5 +1,0 @@
-1° importance:
-- Creat an r code for statistics from the csv file created, check the outputs.
-2° importance (this to generate better plots, with CI):
-- Find a way to calculate mean and standard deviation from the dictionary of data csv, to mean_stdev csv
-- fix the plotting code to take this csv and plot values

@@ -1,4 +1,0 @@
-ANOVA table for photosyntheticallyActiveRadiation:
-                 df         sum_sq        mean_sq           F        PR(>F) p_value
-C(treatment)    1.0  173417.783977  173417.783977  161.826462  2.677738e-32   0.000
-Residual      498.0  533670.793973    1071.628100         NaN           NaN     nan

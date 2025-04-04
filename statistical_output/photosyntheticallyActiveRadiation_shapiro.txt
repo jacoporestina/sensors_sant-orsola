@@ -1,3 +1,0 @@
-Shapiro-Wilk test result for photosyntheticallyActiveRadiation:
-Test statistic: 0.9863110184669495
-p-value: 0.000

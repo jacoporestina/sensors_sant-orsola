@@ -1,3 +1,0 @@
-Levene's test result for photosyntheticallyActiveRadiation:
-Test statistic: 9.097854242933105
-p-value: 0.000

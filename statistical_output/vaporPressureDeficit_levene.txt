@@ -1,3 +1,0 @@
-Levene's test result for vaporPressureDeficit:
-Test statistic: 2.8434603693871345
-p-value: 0.000
