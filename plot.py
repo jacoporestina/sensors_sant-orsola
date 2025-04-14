@@ -122,6 +122,121 @@ def plot_daily_comparison():
             save_path = f"{variable_folder}/{start_date.strftime('%Y-%m-%d')}.png"
             plot_comparison(control_hourly, shaded_hourly, var, start_date, end_date, save_path, time_scale='hourly')
 
+def plot_t_above_threshold_histogram(control_file, shaded_file, save_path):
+    """Creates a histogram comparing t_above_threshold_mean and std for control and shaded data."""
+    # Load data
+    control_df = pd.read_csv(control_file)
+    shaded_df = pd.read_csv(shaded_file)
+
+    # Calculate the sum of t_above_threshold_mean and std
+    control_sum = control_df['t_above_threshold_mean'].sum()
+    control_std = control_df['t_above_threshold_std'].sum()
+    shaded_sum = shaded_df['t_above_threshold_mean'].sum()
+    shaded_std = shaded_df['t_above_threshold_std'].sum()
+
+    # Data for the histogram
+    categories = ['Control', 'Shaded']
+    means = [control_sum, shaded_sum]
+    stds = [control_std, shaded_std]
+
+    # Plot the histogram
+    fig, ax = plt.subplots(figsize=(8, 6))
+    ax.bar(categories, means, yerr=stds, capsize=5, color=['black', 'grey'], alpha=0.7)
+
+    # Set labels and title
+    ax.set_ylabel('Temperature (°C)')
+    ax.set_title('Comparison of t_above_threshold (Mean ± Std)')
+
+    # Save the plot
+    os.makedirs(os.path.dirname(save_path), exist_ok=True)
+    plt.tight_layout()
+    plt.savefig(save_path)
+    plt.close()
+    print(f"Saved histogram: {save_path}")
+
+def plot_t_above_threshold_count_histogram(control_file, shaded_file, save_path):
+    """Creates a histogram comparing the count of days where t_above_threshold > 0 for control and shaded data."""
+    # Load data
+    control_df = pd.read_csv(control_file)
+    shaded_df = pd.read_csv(shaded_file)
+
+    # Count the number of days where t_above_threshold > 0
+    control_count = (control_df['t_above_threshold_mean'] > 0).sum()
+    shaded_count = (shaded_df['t_above_threshold_mean'] > 0).sum()
+
+    # Data for the histogram
+    categories = ['Control', 'Shaded']
+    counts = [control_count, shaded_count]
+
+    # Plot the histogram
+    fig, ax = plt.subplots(figsize=(8, 6))
+    ax.bar(categories, counts, color=['black', 'grey'], alpha=0.7)
+
+    # Set labels and title
+    ax.set_ylabel('Number of Days')
+    ax.set_title('Count of Days with t_above_threshold > 0')
+
+    # Save the plot
+    os.makedirs(os.path.dirname(save_path), exist_ok=True)
+    plt.tight_layout()
+    plt.savefig(save_path)
+    plt.close()
+    print(f"Saved histogram: {save_path}")
+
+def plot_dli_comparison(control_file, shaded_file, save_path):
+    """Creates a histogram comparing DLI (mol m-2 d-1) for control and shaded data."""
+    # Load data
+    control_df = pd.read_csv(control_file)
+    shaded_df = pd.read_csv(shaded_file)
+
+    # Calculate the mean DLI for control and shaded
+    control_dli_mean = control_df['DLI_mol m-2 d-1'].sum()
+    shaded_dli_mean = shaded_df['DLI_mol m-2 d-1'].sum()
+
+    # Data for the histogram
+    categories = ['Control', 'Shaded']
+    dli_means = [control_dli_mean, shaded_dli_mean]
+
+    # Plot the histogram
+    fig, ax = plt.subplots(figsize=(8, 6))
+    ax.bar(categories, dli_means, color=['black', 'grey'], alpha=0.7)
+
+    # Set labels and title
+    ax.set_ylabel('DLI (mol m-2 d-1)')
+    ax.set_title('Comparison of DLI (Daily Light Integral)')
+
+    # Save the plot
+    os.makedirs(os.path.dirname(save_path), exist_ok=True)
+    plt.tight_layout()
+    plt.savefig(save_path)
+    plt.close()
+    print(f"Saved DLI comparison histogram: {save_path}")
+
+# Run functions for histograms
+plot_t_above_threshold_histogram(
+    'mean_std_data/termoigrometro_control_daily_mean_std.csv',
+    'mean_std_data/termoigrometro_shaded_daily_mean_std.csv',
+    'plots/t_above_threshold_histogram_days.png'
+)
+
+plot_t_above_threshold_histogram(
+    'mean_std_data/termoigrometro_control_hourly_mean_std.csv',
+    'mean_std_data/termoigrometro_shaded_hourly_mean_std.csv',
+    'plots/t_above_threshold_histogram_hours.png'
+)
+
+plot_t_above_threshold_count_histogram(
+    'mean_std_data/termoigrometro_control_daily_mean_std.csv',
+    'mean_std_data/termoigrometro_shaded_daily_mean_std.csv',
+    'plots/t_above_threshold_count_histogram.png'
+)
+
+plot_dli_comparison(
+    'hourly_daily_data/PAR_control_daily.csv',
+    'hourly_daily_data/PAR_shaded_daily.csv',
+    'plots/dli_comparison_histogram.png'
+)
+
 # Run both functions
-plot_monthly_comparison()
-plot_daily_comparison()
+#plot_monthly_comparison()
+#plot_daily_comparison()
