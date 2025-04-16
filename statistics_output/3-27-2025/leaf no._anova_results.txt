@@ -1,0 +1,7 @@
+ANOVA Results for Leaf Number on 3/27/2025:
+F-statistic: 5.156573705179284, p-value: 0.031045220218174605
+
+Assumption Tests:
+Shapiro-Wilk Test (Control): W=0.9172719120979309, p=0.17501036822795868
+Shapiro-Wilk Test (Shaded): W=0.9484766721725464, p=0.5007864832878113
+Levene's Test: W=0.0069169960474307806, p=0.9343093203669517

@@ -1,0 +1,3 @@
+Model Assumption Checks
+Shapiro-Wilk p-value: 0.2713 (normal)
+Levene’s test p-value: 0.9990 (equal variances)

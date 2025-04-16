@@ -1,6 +1,6 @@
 """Main file to handle all the functions for file processing and plots."""
 
-from file_loading import process_files, compute_mean_stdev
+from file_processing import process_files, compute_mean_stdev
 
 # Specify file path of the raw data
 csv_files = [
