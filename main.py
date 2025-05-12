@@ -1,6 +1,8 @@
+from file_processing import process_files, compute_mean_stdev, combine_par_and_termoigrometro
+
 """Main file to handle all the functions for file processing and plots."""
 
-from file_processing import process_files, compute_mean_stdev
+
 
 # Specify file path of the raw data
 csv_files = [
@@ -48,3 +50,6 @@ compute_mean_stdev(termoigrometro_control_daily, "termoigrometro_control_daily")
 compute_mean_stdev(termoigrometro_control_hourly, "termoigrometro_control_hourly")
 compute_mean_stdev(termoigrometro_shaded_daily, "termoigrometro_shaded_daily")
 compute_mean_stdev(termoigrometro_shaded_hourly, "termoigrometro_shaded_hourly")
+
+# combine the PAR files with the termoigrometro data
+combine_par_and_termoigrometro() # Before using the function, copy paste PAR files into mean_std_data folder.

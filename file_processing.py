@@ -95,3 +95,54 @@ def compute_mean_stdev(file_list, group_name):
     df_summary.to_csv(summary_file)
 
     print(f"Saved {group_name} summary to {summary_file}")
+
+
+
+def combine_par_and_termoigrometro(mean_std_folder="mean_std_data"):
+    """Combine PAR data with termoigrometro data."""
+    # List all files in the mean_std_data folder
+    files = [f for f in os.listdir(mean_std_folder) if f.endswith(".csv")]
+
+    # Explicit mapping of PAR files to termoigrometro files
+    file_mapping = {
+        "PAR_control_daily": "termoigrometro_control_daily_mean_std.csv",
+        "PAR_control_hourly": "termoigrometro_control_hourly_mean_std.csv",
+        "PAR_shaded_daily": "termoigrometro_shaded_daily_mean_std.csv",
+        "PAR_shaded_hourly": "termoigrometro_shaded_hourly_mean_std.csv",
+    }
+
+    for par_file_key, termo_file_name in file_mapping.items():
+        # Find the PAR file
+        par_file = next((f for f in files if par_file_key in f), None)
+        if not par_file:
+            print(f"No PAR file found for key {par_file_key}")
+            continue
+
+        # Find the corresponding termoigrometro file
+        termo_file = next((f for f in files if termo_file_name in f), None)
+        if not termo_file:
+            print(f"No matching termoigrometro file found for {par_file_key}")
+            continue
+
+        # Load the PAR and termoigrometro data
+        par_df = pd.read_csv(os.path.join(mean_std_folder, par_file))
+        termo_df = pd.read_csv(os.path.join(mean_std_folder, termo_file))
+
+        # Rename the column if it exists
+        if 'photosyntheticallyActiveRadiation_mean' in par_df.columns:
+            par_df.rename(columns={'photosyntheticallyActiveRadiation_mean': 'photosyntheticallyActiveRadiation_mean_mean'}, inplace=True)
+
+        # Determine columns to merge dynamically
+        merge_columns = ['receivedAt']
+        if 'photosyntheticallyActiveRadiation_mean_mean' in par_df.columns:
+            merge_columns.append('photosyntheticallyActiveRadiation_mean_mean')
+        if 'DLI_mol m-2 d-1' in par_df.columns:
+            merge_columns.append('DLI_mol m-2 d-1')
+
+        # Merge the data on the 'receivedAt' column
+        combined_df = pd.merge(termo_df, par_df[merge_columns], on='receivedAt', how='left')
+
+        # Save the combined file
+        combined_file = os.path.join(mean_std_folder, f"combined_termoigrometro_{par_file_key}_mean_std.csv")
+        combined_df.to_csv(combined_file, index=False)
+        print(f"Combined file saved to {combined_file}")
