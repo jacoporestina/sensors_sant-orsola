@@ -54,6 +54,21 @@ def process_files(csv_files):
         else:
             print(f"Column ['photosyntheticallyActiveRadiation_mean'] missing in {file}.")
 
+        # Calculate mean temperatures for nighttime and daytime
+        df_hourly['hour'] = df_hourly.index.hour
+        df_hourly['is_daytime'] = df_hourly['hour'].apply(lambda x: 1 if 6 <= x < 20 else 0)
+
+        if 'temperature_mean' in df_hourly.columns:
+            df_daily['temperature_daytime_mean'] = df_hourly[df_hourly['is_daytime'] == 1].resample('D')['temperature_mean'].mean()
+            df_daily['temperature_nighttime_mean'] = df_hourly[df_hourly['is_daytime'] == 0].resample('D')['temperature_mean'].mean()
+        else:
+            print(f"Column ['temperature_mean'] missing in {file}.")
+
+        # Drop temporary columns
+        df_hourly.drop(['hour', 'is_daytime'], axis=1, inplace=True)
+
+
+
         # Reset index to make 'receivedAt' a column again
         df_hourly = df_hourly.reset_index()
         df_daily = df_daily.reset_index()
