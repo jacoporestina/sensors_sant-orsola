@@ -1,0 +1,26 @@
+ANOVA Results and Assumption Tests for Fruit Number:
+
+Date: 27/03/2025
+F-statistic: nan, p-value: nan
+Shapiro-Wilk Test (Control): W=nan, p=1.0
+Shapiro-Wilk Test (Shaded): W=nan, p=1.0
+Levene's Test: W=nan, p=nan
+
+Date: 10/04/2025
+F-statistic: nan, p-value: nan
+Shapiro-Wilk Test (Control): W=nan, p=1.0
+Shapiro-Wilk Test (Shaded): W=nan, p=1.0
+Levene's Test: W=nan, p=nan
+
+Date: 23/04/2025
+F-statistic: nan, p-value: nan
+Shapiro-Wilk Test (Control): W=nan, p=1.0
+Shapiro-Wilk Test (Shaded): W=nan, p=1.0
+Levene's Test: W=nan, p=nan
+
+Date: 08/05/2025
+F-statistic: 8.677873183619553, p-value: 0.006420206585003902
+Shapiro-Wilk Test (Control): W=0.9503616094589233, p=0.530164361000061
+Shapiro-Wilk Test (Shaded): W=0.8936025500297546, p=0.07604333758354187
+Levene's Test: W=0.13457943925233642, p=0.7164882937757773
+

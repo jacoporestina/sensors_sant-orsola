@@ -1,7 +1,0 @@
-Filename,Treatment,Replicate,CumulativeTemp
-termoigrometro_control_1_hourly.csv,control,1,4012.485642910568
-termoigrometro_control_2_hourly.csv,control,2,4010.5006907040206
-termoigrometro_control_3_hourly.csv,control,3,4014.410990534651
-termoigrometro_shaded_1_hourly.csv,shaded,1,3583.4420095295013
-termoigrometro_shaded_2_hourly.csv,shaded,2,3587.356188873373
-termoigrometro_shaded_3_hourly.csv,shaded,3,3585.831803747179

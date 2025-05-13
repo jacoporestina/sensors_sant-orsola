@@ -1,7 +1,0 @@
-ANOVA Results for Petiole Length on 04/10/2025:
-F-statistic: 2.9361797059374255, p-value: 0.09766791175211151
-
-Assumption Tests:
-Shapiro-Wilk Test (Control): W=0.9009808301925659, p=0.0985146164894104
-Shapiro-Wilk Test (Shaded): W=0.9477212429046631, p=0.4893038868904114
-Levene's Test: W=0.38196637790272414, p=0.5415476094423792

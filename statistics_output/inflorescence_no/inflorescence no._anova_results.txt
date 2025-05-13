@@ -1,0 +1,26 @@
+ANOVA Results and Assumption Tests for Inflorescence Number:
+
+Date: 27/03/2025
+F-statistic: nan, p-value: nan
+Shapiro-Wilk Test (Control): W=nan, p=1.0
+Shapiro-Wilk Test (Shaded): W=nan, p=1.0
+Levene's Test: W=nan, p=nan
+
+Date: 10/04/2025
+F-statistic: nan, p-value: nan
+Shapiro-Wilk Test (Control): W=nan, p=1.0
+Shapiro-Wilk Test (Shaded): W=nan, p=1.0
+Levene's Test: W=nan, p=nan
+
+Date: 23/04/2025
+F-statistic: 2.950474183350896, p-value: 0.09689460120693098
+Shapiro-Wilk Test (Control): W=0.9066020846366882, p=0.1201028972864151
+Shapiro-Wilk Test (Shaded): W=0.8359915018081665, p=0.01106723677366972
+Levene's Test: W=0.37313432835820937, p=0.5462278956205181
+
+Date: 08/05/2025
+F-statistic: 0.2635294117647062, p-value: 0.6117328069271263
+Shapiro-Wilk Test (Control): W=0.9474473595619202, p=0.4851827025413513
+Shapiro-Wilk Test (Shaded): W=0.9604142904281616, p=0.6995980143547058
+Levene's Test: W=0.009138381201044444, p=0.924523229735752
+

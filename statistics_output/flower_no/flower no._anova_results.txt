@@ -1,0 +1,26 @@
+ANOVA Results and Assumption Tests for Flower Number:
+
+Date: 27/03/2025
+F-statistic: nan, p-value: nan
+Shapiro-Wilk Test (Control): W=nan, p=1.0
+Shapiro-Wilk Test (Shaded): W=nan, p=1.0
+Levene's Test: W=nan, p=nan
+
+Date: 10/04/2025
+F-statistic: nan, p-value: nan
+Shapiro-Wilk Test (Control): W=nan, p=1.0
+Shapiro-Wilk Test (Shaded): W=nan, p=1.0
+Levene's Test: W=nan, p=nan
+
+Date: 23/04/2025
+F-statistic: 3.8641129032258066, p-value: 0.05931734075084944
+Shapiro-Wilk Test (Control): W=0.9232707023620605, p=0.21602989733219147
+Shapiro-Wilk Test (Shaded): W=0.9391708970069885, p=0.37205928564071655
+Levene's Test: W=0.37966101694915244, p=0.542761970408471
+
+Date: 08/05/2025
+F-statistic: 0.4045146726862302, p-value: 0.5299317461060934
+Shapiro-Wilk Test (Control): W=0.9535367488861084, p=0.5817686915397644
+Shapiro-Wilk Test (Shaded): W=0.9375319480895996, p=0.3523487150669098
+Levene's Test: W=0.09328358208955205, p=0.7623026273690723
+
