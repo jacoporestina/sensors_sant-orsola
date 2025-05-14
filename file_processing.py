@@ -19,12 +19,10 @@ def process_files(csv_files):
         df_hourly_mean = df.resample('H').mean()
         df_hourly_max = df.resample('H').max()
         df_hourly_min = df.resample('H').min()
-
         # Calculate means, max and min for every day
         df_daily_mean = df_hourly_mean.resample('D').mean()
         df_daily_max = df_hourly_max.resample('D').mean()
         df_daily_min = df_hourly_min.resample('D').mean()
-
 
         # Combine dfs with the same resampling type
         df_hourly = pd.concat([df_hourly_mean, df_hourly_max, df_hourly_min], axis=1, keys=['mean', 'max', 'min'])
