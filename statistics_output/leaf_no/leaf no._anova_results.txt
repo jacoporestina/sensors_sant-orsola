@@ -1,26 +1,71 @@
 ANOVA Results and Assumption Tests for Leaf Number:
+Date: 2025-03-27
+Means:
+  Control: 13.733
+  Shaded: 10.867
 
-Date: 27/03/2025
-F-statistic: 5.156573705179284, p-value: 0.031045220218174605
-Shapiro-Wilk Test (Control): W=0.9172719120979309, p=0.17501036822795868
-Shapiro-Wilk Test (Shaded): W=0.9484766721725464, p=0.5007864832878113
-Levene's Test: W=0.0069169960474307806, p=0.9343093203669517
+ANOVA Table:
+Source         DF    SS          MS          F         P-value   
+Treatment      1     61.633      61.633      5.157     0.031     
+Residual       28    334.667     11.952                          
 
-Date: 10/04/2025
-F-statistic: 7.932111200644642, p-value: 0.008800068925355956
-Shapiro-Wilk Test (Control): W=0.9786838293075562, p=0.9597236514091492
-Shapiro-Wilk Test (Shaded): W=0.9347562193870544, p=0.3209761679172516
-Levene's Test: W=1.1251113089937677, p=0.29788475213712773
+Shapiro-Wilk (Control): W=0.917, p=0.175
+Shapiro-Wilk (Shaded): W=0.948, p=0.501
+Levene's Test: W=0.007, p=0.934
 
-Date: 23/04/2025
-F-statistic: 2.820604182804028, p-value: 0.10418781451355057
-Shapiro-Wilk Test (Control): W=0.9130229949951172, p=0.15066048502922058
-Shapiro-Wilk Test (Shaded): W=0.9101795554161072, p=0.1362709105014801
-Levene's Test: W=0.8149478979518507, p=0.37436236598534944
+Date: 2025-04-10
+Means:
+  Control: 20.067
+  Shaded: 15.067
 
-Date: 08/05/2025
-F-statistic: 1.6454322910871262, p-value: 0.2100991827580246
-Shapiro-Wilk Test (Control): W=0.9799713492393494, p=0.9693071246147156
-Shapiro-Wilk Test (Shaded): W=0.8324540257453918, p=0.00989628117531538
-Levene's Test: W=0.34734467910600786, p=0.5603458267015813
+ANOVA Table:
+Source         DF    SS          MS          F         P-value   
+Treatment      1     187.500     187.500     7.932     0.009     
+Residual       28    661.867     23.638                          
+
+Shapiro-Wilk (Control): W=0.979, p=0.96
+Shapiro-Wilk (Shaded): W=0.935, p=0.321
+Levene's Test: W=1.125, p=0.298
+
+Date: 2025-04-23
+Means:
+  Control: 25.933
+  Shaded: 22.533
+
+ANOVA Table:
+Source         DF    SS          MS          F         P-value   
+Treatment      1     86.700      86.700      2.821     0.104     
+Residual       28    860.667     30.738                          
+
+Shapiro-Wilk (Control): W=0.913, p=0.151
+Shapiro-Wilk (Shaded): W=0.910, p=0.136
+Levene's Test: W=0.815, p=0.374
+
+Date: 2025-05-08
+Means:
+  Control: 30.400
+  Shaded: 26.067
+
+ANOVA Table:
+Source         DF    SS          MS          F         P-value   
+Treatment      1     140.833     140.833     1.645     0.21      
+Residual       28    2396.533    85.590                          
+
+Shapiro-Wilk (Control): W=0.980, p=0.969
+Shapiro-Wilk (Shaded): W=0.832, p=0.01
+Levene's Test: W=0.347, p=0.56
+
+Date: 2025-05-20
+Means:
+  Control: 35.733
+  Shaded: 28.733
+
+ANOVA Table:
+Source         DF    SS          MS          F         P-value   
+Treatment      1     367.500     367.500     3.414     0.075     
+Residual       28    3013.867    107.638                         
+
+Shapiro-Wilk (Control): W=0.935, p=0.327
+Shapiro-Wilk (Shaded): W=0.857, p=0.022
+Levene's Test: W=0.820, p=0.373
 

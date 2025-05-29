@@ -1,26 +1,43 @@
 ANOVA Results and Assumption Tests for Inflorescence Number:
+Date: 2025-04-23
+Means:
+  Control: 5.733
+  Shaded: 4.400
 
-Date: 27/03/2025
-F-statistic: nan, p-value: nan
-Shapiro-Wilk Test (Control): W=nan, p=1.0
-Shapiro-Wilk Test (Shaded): W=nan, p=1.0
-Levene's Test: W=nan, p=nan
+ANOVA Table:
+Source         DF    SS          MS          F         P-value   
+Treatment      1     13.333      13.333      2.950     0.097     
+Residual       28    126.533     4.519                           
 
-Date: 10/04/2025
-F-statistic: nan, p-value: nan
-Shapiro-Wilk Test (Control): W=nan, p=1.0
-Shapiro-Wilk Test (Shaded): W=nan, p=1.0
-Levene's Test: W=nan, p=nan
+Shapiro-Wilk (Control): W=0.907, p=0.12
+Shapiro-Wilk (Shaded): W=0.836, p=0.011
+Levene's Test: W=0.373, p=0.546
 
-Date: 23/04/2025
-F-statistic: 2.950474183350896, p-value: 0.09689460120693098
-Shapiro-Wilk Test (Control): W=0.9066020846366882, p=0.1201028972864151
-Shapiro-Wilk Test (Shaded): W=0.8359915018081665, p=0.01106723677366972
-Levene's Test: W=0.37313432835820937, p=0.5462278956205181
+Date: 2025-05-08
+Means:
+  Control: 8.067
+  Shaded: 7.533
 
-Date: 08/05/2025
-F-statistic: 0.2635294117647062, p-value: 0.6117328069271263
-Shapiro-Wilk Test (Control): W=0.9474473595619202, p=0.4851827025413513
-Shapiro-Wilk Test (Shaded): W=0.9604142904281616, p=0.6995980143547058
-Levene's Test: W=0.009138381201044444, p=0.924523229735752
+ANOVA Table:
+Source         DF    SS          MS          F         P-value   
+Treatment      1     2.133       2.133       0.264     0.612     
+Residual       28    226.667     8.095                           
+
+Shapiro-Wilk (Control): W=0.947, p=0.485
+Shapiro-Wilk (Shaded): W=0.960, p=0.7
+Levene's Test: W=0.009, p=0.925
+
+Date: 2025-05-20
+Means:
+  Control: 8.067
+  Shaded: 7.800
+
+ANOVA Table:
+Source         DF    SS          MS          F         P-value   
+Treatment      1     0.533       0.533       0.050     0.825     
+Residual       28    301.333     10.762                          
+
+Shapiro-Wilk (Control): W=0.931, p=0.282
+Shapiro-Wilk (Shaded): W=0.883, p=0.052
+Levene's Test: W=0.279, p=0.601
 

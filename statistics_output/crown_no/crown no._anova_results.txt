@@ -1,26 +1,15 @@
 ANOVA Results and Assumption Tests for Crown Number:
+Date: 2025-03-27
+Means:
+  Control: 3.800
+  Shaded: 2.533
 
-Date: 27/03/2025
-F-statistic: 11.181415929203537, p-value: 0.0023598901829115105
-Shapiro-Wilk Test (Control): W=0.6917712092399597, p=0.0002032143238466233
-Shapiro-Wilk Test (Shaded): W=0.8446399569511414, p=0.014594988897442818
-Levene's Test: W=0.3000000000000001, p=0.5882225049572027
+ANOVA Table:
+Source         DF    SS          MS          F         P-value   
+Treatment      1     12.033      12.033      11.181    0.002     
+Residual       28    30.133      1.076                           
 
-Date: 10/04/2025
-F-statistic: nan, p-value: nan
-Shapiro-Wilk Test (Control): W=nan, p=1.0
-Shapiro-Wilk Test (Shaded): W=nan, p=1.0
-Levene's Test: W=nan, p=nan
-
-Date: 23/04/2025
-F-statistic: nan, p-value: nan
-Shapiro-Wilk Test (Control): W=nan, p=1.0
-Shapiro-Wilk Test (Shaded): W=nan, p=1.0
-Levene's Test: W=nan, p=nan
-
-Date: 08/05/2025
-F-statistic: nan, p-value: nan
-Shapiro-Wilk Test (Control): W=nan, p=1.0
-Shapiro-Wilk Test (Shaded): W=nan, p=1.0
-Levene's Test: W=nan, p=nan
+Shapiro-Wilk (Control): W=0.692, p=<0.001
+Shapiro-Wilk (Shaded): W=0.845, p=0.015
+Levene's Test: W=0.300, p=0.588
 
