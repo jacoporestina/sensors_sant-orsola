@@ -1,0 +1,30 @@
+ANOVA Results and Assumption Tests for yield_5bags (g)
+
+Date: 2025-05-23
+Means:
+  Control: 1393.467
+  Shaded: 965.600
+
+ANOVA Table:
+Source         DF    SS          MS          F         P-value   
+Treatment      1     274604.827  274604.827  4.201     0.11      
+Residual       4     261439.267  65359.817                       
+
+Shapiro-Wilk (Control): W=0.948, p=0.562
+Shapiro-Wilk (Shaded): W=0.970, p=0.668
+Levene's Test: W=0.839, p=0.412
+
+Date: 2025-05-27
+Means:
+  Control: 2169.133
+  Shaded: 2005.900
+
+ANOVA Table:
+Source         DF    SS          MS          F         P-value   
+Treatment      1     39967.682   39967.682   1.066     0.36      
+Residual       4     150016.987  37504.247                       
+
+Shapiro-Wilk (Control): W=0.790, p=0.091
+Shapiro-Wilk (Shaded): W=0.997, p=0.893
+Levene's Test: W=2.688, p=0.176
+
