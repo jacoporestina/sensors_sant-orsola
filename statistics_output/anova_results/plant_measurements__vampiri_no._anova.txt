@@ -1,0 +1,16 @@
+ANOVA and Assumption Tests for vampiri no. (plant_measurements)
+
+Date: 2025-03-27
+Means:
+  Control: 1.533
+  Shaded: 1.600
+
+ANOVA Table:
+Source         DF    SS          MS          F         P-value   
+Treatment      1     0.033       0.033       0.013     0.911     
+Residual       28    73.333      2.619       
+
+Shapiro-Wilk (Control): W=0.874, p=0.038
+Shapiro-Wilk (Shaded): W=0.804, p=0.004
+Levene's Test:         W=0.022, p=0.883
+

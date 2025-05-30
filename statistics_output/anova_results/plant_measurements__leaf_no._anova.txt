@@ -1,0 +1,72 @@
+ANOVA and Assumption Tests for leaf no. (plant_measurements)
+
+Date: 2025-03-27
+Means:
+  Control: 13.733
+  Shaded: 10.867
+
+ANOVA Table:
+Source         DF    SS          MS          F         P-value   
+Treatment      1     61.633      61.633      5.157     0.031     
+Residual       28    334.667     11.952      
+
+Shapiro-Wilk (Control): W=0.917, p=0.175
+Shapiro-Wilk (Shaded): W=0.948, p=0.501
+Levene's Test:         W=0.007, p=0.934
+
+Date: 2025-04-10
+Means:
+  Control: 20.067
+  Shaded: 15.067
+
+ANOVA Table:
+Source         DF    SS          MS          F         P-value   
+Treatment      1     187.500     187.500     7.932     0.009     
+Residual       28    661.867     23.638      
+
+Shapiro-Wilk (Control): W=0.979, p=0.96
+Shapiro-Wilk (Shaded): W=0.935, p=0.321
+Levene's Test:         W=1.125, p=0.298
+
+Date: 2025-04-23
+Means:
+  Control: 25.933
+  Shaded: 22.533
+
+ANOVA Table:
+Source         DF    SS          MS          F         P-value   
+Treatment      1     86.700      86.700      2.821     0.104     
+Residual       28    860.667     30.738      
+
+Shapiro-Wilk (Control): W=0.913, p=0.151
+Shapiro-Wilk (Shaded): W=0.910, p=0.136
+Levene's Test:         W=0.815, p=0.374
+
+Date: 2025-05-08
+Means:
+  Control: 30.400
+  Shaded: 26.067
+
+ANOVA Table:
+Source         DF    SS          MS          F         P-value   
+Treatment      1     140.833     140.833     1.645     0.21      
+Residual       28    2396.533    85.590      
+
+Shapiro-Wilk (Control): W=0.980, p=0.969
+Shapiro-Wilk (Shaded): W=0.832, p=0.01
+Levene's Test:         W=0.347, p=0.56
+
+Date: 2025-05-20
+Means:
+  Control: 35.733
+  Shaded: 28.733
+
+ANOVA Table:
+Source         DF    SS          MS          F         P-value   
+Treatment      1     367.500     367.500     3.414     0.075     
+Residual       28    3013.867    107.638     
+
+Shapiro-Wilk (Control): W=0.935, p=0.327
+Shapiro-Wilk (Shaded): W=0.857, p=0.022
+Levene's Test:         W=0.820, p=0.373
+

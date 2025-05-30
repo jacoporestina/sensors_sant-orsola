@@ -1,0 +1,32 @@
+ANOVA and Assumption Tests for brix (Bx%) (fruit_analysis)
+
+Date: 2025-05-20 - Error: r_matrix performs f_test for using dimensions that are asymptotically non-normal
+
+Date: 2025-05-23
+Means:
+  Control: 7.533
+  Shaded: 7.233
+
+ANOVA Table:
+Source         DF    SS          MS          F         P-value   
+Treatment      1     0.135       0.135       4.765     0.094     
+Residual       4     0.113       0.028       
+
+Shapiro-Wilk (Control): W=0.750, p=<0.001
+Shapiro-Wilk (Shaded): W=0.923, p=0.463
+Levene's Test:         W=0.364, p=0.579
+
+Date: 2025-05-27
+Means:
+  Control: 7.333
+  Shaded: 7.100
+
+ANOVA Table:
+Source         DF    SS          MS          F         P-value   
+Treatment      1     0.082       0.082       1.225     0.33      
+Residual       4     0.267       0.067       
+
+Shapiro-Wilk (Control): W=0.987, p=0.78
+Shapiro-Wilk (Shaded): W=0.893, p=0.363
+Levene's Test:         W=0.000, p=1.0
+

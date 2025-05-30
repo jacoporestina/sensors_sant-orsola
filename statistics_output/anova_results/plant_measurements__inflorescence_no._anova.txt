@@ -1,0 +1,44 @@
+ANOVA and Assumption Tests for inflorescence no. (plant_measurements)
+
+Date: 2025-04-23
+Means:
+  Control: 5.733
+  Shaded: 4.400
+
+ANOVA Table:
+Source         DF    SS          MS          F         P-value   
+Treatment      1     13.333      13.333      2.950     0.097     
+Residual       28    126.533     4.519       
+
+Shapiro-Wilk (Control): W=0.907, p=0.12
+Shapiro-Wilk (Shaded): W=0.836, p=0.011
+Levene's Test:         W=0.373, p=0.546
+
+Date: 2025-05-08
+Means:
+  Control: 8.067
+  Shaded: 7.533
+
+ANOVA Table:
+Source         DF    SS          MS          F         P-value   
+Treatment      1     2.133       2.133       0.264     0.612     
+Residual       28    226.667     8.095       
+
+Shapiro-Wilk (Control): W=0.947, p=0.485
+Shapiro-Wilk (Shaded): W=0.960, p=0.7
+Levene's Test:         W=0.009, p=0.925
+
+Date: 2025-05-20
+Means:
+  Control: 8.067
+  Shaded: 7.800
+
+ANOVA Table:
+Source         DF    SS          MS          F         P-value   
+Treatment      1     0.533       0.533       0.050     0.825     
+Residual       28    301.333     10.762      
+
+Shapiro-Wilk (Control): W=0.931, p=0.282
+Shapiro-Wilk (Shaded): W=0.883, p=0.052
+Levene's Test:         W=0.279, p=0.601
+

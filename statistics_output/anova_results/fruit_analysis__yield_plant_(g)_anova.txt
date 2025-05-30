@@ -1,0 +1,32 @@
+ANOVA and Assumption Tests for yield_plant (g) (fruit_analysis)
+
+Date: 2025-05-20 - Error: r_matrix performs f_test for using dimensions that are asymptotically non-normal
+
+Date: 2025-05-23
+Means:
+  Control: 46.450
+  Shaded: 32.190
+
+ANOVA Table:
+Source         DF    SS          MS          F         P-value   
+Treatment      1     305.021     305.021     4.201     0.11      
+Residual       4     290.406     72.601      
+
+Shapiro-Wilk (Control): W=0.948, p=0.562
+Shapiro-Wilk (Shaded): W=0.970, p=0.668
+Levene's Test:         W=0.839, p=0.412
+
+Date: 2025-05-27
+Means:
+  Control: 72.303
+  Shaded: 66.863
+
+ANOVA Table:
+Source         DF    SS          MS          F         P-value   
+Treatment      1     44.390      44.390      1.065     0.36      
+Residual       4     166.801     41.700      
+
+Shapiro-Wilk (Control): W=0.791, p=0.093
+Shapiro-Wilk (Shaded): W=0.997, p=0.893
+Levene's Test:         W=2.689, p=0.176
+
