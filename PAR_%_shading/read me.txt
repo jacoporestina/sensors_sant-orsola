@@ -1,0 +1,8 @@
+I file contenuti in questa cartella servono per il calcolo della diff % di par tra ombreggiato e controllo. I dati utilizzati sono quelli da 04/25 fino a 06/25, dove la rete ombreggiante al 12% è stata utilizzata. 
+
+risultato: 
+
+Average PAR Percent Difference: 20.22%
+Average DLI Percent Difference: 20.12%
+Average Hourly PAR Percent Difference: -inf%
+Output saved to PAR_comparison_daily.csv
