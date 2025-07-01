@@ -1,8 +1,0 @@
-ANOVA and Assumption Tests for note (fruit_measurements)
-
-Date: 2025-05-20 - Error: r_matrix performs f_test for using dimensions that are asymptotically non-normal
-
-Date: 2025-05-23 - Error: r_matrix performs f_test for using dimensions that are asymptotically non-normal
-
-Date: 2025-05-27 - Error: endog has evaluated to an array with multiple columns that has shape (4, 4). This occurs when the variable converted to endog is non-numeric (e.g., bool or str).
-
