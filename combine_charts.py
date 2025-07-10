@@ -1,4 +1,4 @@
-from PIL import Image
+from PIL import Image, ImageDraw, ImageFont
 
 # Paths to your four images
 paths = [
@@ -8,6 +8,9 @@ paths = [
     "plots/daily/humidity/2025-06-10.png",
 ]
 
+# Labels to add to each subplot
+labels = ["A", "B", "C", "D"]
+
 # Open all images
 images = [Image.open(p) for p in paths]
 
@@ -24,47 +27,85 @@ grid_width = max_width * 2
 grid_height = max_height * 2
 combined = Image.new("RGB", (grid_width, grid_height), (255, 255, 255))
 
-# Paste images into the grid
-combined.paste(images[0], (0, 0))
-combined.paste(images[1], (max_width, 0))
-combined.paste(images[2], (0, max_height))
-combined.paste(images[3], (max_width, max_height))
+# Prepare for drawing
+draw = ImageDraw.Draw(combined)
+try:
+    # Use a truetype font if available (for better rendering)
+    font = ImageFont.truetype("arial.ttf", size=36)
+except:
+    # Fall back to default font
+    font = ImageFont.load_default()
+
+# Coordinates for where each image and label goes
+positions = [
+    (0, 0),                      # A
+    (max_width, 0),              # B
+    (0, max_height),             # C
+    (max_width, max_height)      # D
+]
+
+# Paste images and draw corresponding label
+for img, label, pos in zip(images, labels, positions):
+    combined.paste(img, pos)
+
+    # Position for the label (slightly offset from top-left)
+    label_x = pos[0] + 10
+    label_y = pos[1] + 10
+    draw.text((label_x, label_y), label, fill="black", font=font)
 
 # Save result
-combined.save("plots/daily/combined_2x2.png")
+combined.save("plots/daily/combined_2x2_labeled.png")
 
 
-from PIL import Image
+
+from PIL import Image, ImageDraw, ImageFont
 
 # Paths to your four images
 paths = [
     "plots/monthly/photosyntheticallyActiveRadiation/2025-06.png",
-    "plots/monthly/temperature_daytime/2025-06.png",
+    "plots/monthly/temperature/2025-06.png",
     "plots/monthly/vaporPressureDeficit/2025-06.png",
     "plots/monthly/humidity/2025-06.png",
 ]
 
+# Labels for each subplot
+labels = ["A", "B", "C", "D"]
+
 # Open all images
 images = [Image.open(p) for p in paths]
 
-# Optionally resize to same size (if not already the same)
+# Resize to same dimensions
 widths, heights = zip(*(img.size for img in images))
 max_width = max(widths)
 max_height = max(heights)
-
-# Resize images to the same size
 images = [img.resize((max_width, max_height)) for img in images]
 
-# Create a new blank canvas for 2x2 grid
+# Create blank canvas
 grid_width = max_width * 2
 grid_height = max_height * 2
 combined = Image.new("RGB", (grid_width, grid_height), (255, 255, 255))
 
-# Paste images into the grid
-combined.paste(images[0], (0, 0))
-combined.paste(images[1], (max_width, 0))
-combined.paste(images[2], (0, max_height))
-combined.paste(images[3], (max_width, max_height))
+# Prepare drawing context
+draw = ImageDraw.Draw(combined)
+try:
+    font = ImageFont.truetype("arial.ttf", size=36)
+except:
+    font = ImageFont.load_default()
 
-# Save result
-combined.save("plots/monthly/combined_2x2.png")
+# Positions for images and labels
+positions = [
+    (0, 0),                      # A
+    (max_width, 0),              # B
+    (0, max_height),             # C
+    (max_width, max_height)      # D
+]
+
+# Paste images and draw labels
+for img, label, pos in zip(images, labels, positions):
+    combined.paste(img, pos)
+    label_pos = (pos[0] + 10, pos[1] + 10)
+    draw.text(label_pos, label, fill="black", font=font)
+
+# Save the final combined image
+combined.save("plots/monthly/combined_2x2_labeled.png")
+
