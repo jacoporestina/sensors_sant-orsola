@@ -17,16 +17,21 @@ def process_files(csv_files):
 
         # Calculate means, max and min for every hour
         df_hourly_mean = df.resample('H').mean()
-        df_hourly_max = df.resample('H').max()
-        df_hourly_min = df.resample('H').min()
+
         # Calculate means, max and min for every day
         df_daily_mean = df_hourly_mean.resample('D').mean()
-        df_daily_max = df_hourly_max.resample('D').mean()
-        df_daily_min = df_hourly_min.resample('D').mean()
+        df_daily_max = df_hourly_mean.resample('D').max()
+        df_daily_min = df_hourly_mean.resample('D').min()
+
+        # Claculate means, max and min for every month
+        df_monthly_mean = df_daily_mean.resample('M').mean()
+        df_monthly_max = df_daily_max.resample('M').mean()
+        df_monthly_min = df_daily_min.resample('M').mean()
 
         # Combine dfs with the same resampling type
-        df_hourly = pd.concat([df_hourly_mean, df_hourly_max, df_hourly_min], axis=1, keys=['mean', 'max', 'min'])
+        df_hourly = pd.concat([df_hourly_mean], axis=1, keys=['mean'])
         df_daily = pd.concat([df_daily_mean, df_daily_max, df_daily_min], axis=1, keys=['mean', 'max', 'min'])
+        df_monthly = pd.concat([df_monthly_mean, df_monthly_max, df_monthly_min], axis=1, keys=['mean', 'max', 'min'])
         print(df_hourly.head())
 
         # Flatten the multi-index columns and rename them
@@ -34,23 +39,16 @@ def process_files(csv_files):
                         for level0, level1 in df_hourly.columns]
         df_daily.columns = [f"{level1}_{level0}" if level0 != 'receivedAt' else level0
                     for level0, level1 in df_daily.columns]
+        df_monthly.columns = [f"{level1}_{level0}" if level0 != 'receivedAt' else level0
+                    for level0, level1 in df_monthly.columns]
 
-        # Add t_above_threshold column
-        if 'temperature_mean' in df_hourly.columns and 'temperature_mean' in df_daily.columns:
-            df_hourly['t_above_threshold'] = df_hourly['temperature_mean'].apply(
-                lambda x: x - 25 if x > 26 else 0
-            )
-            df_daily['t_above_threshold'] = df_daily['temperature_mean'].apply(
-                lambda x: x - 25 if x > 26 else 0
-            )
-        else:
-            print(f"Column ['temperature_mean'] missing in {file}.")
 
         # Add DLI column
         if 'photosyntheticallyActiveRadiation_mean' in df_hourly.columns:
             df_daily['DLI_mol m-2 d-1'] = df_hourly['photosyntheticallyActiveRadiation_mean'].resample('D').sum() * 3600 / 1000000
         else:
             print(f"Column ['photosyntheticallyActiveRadiation_mean'] missing in {file}.")
+
 
         # Calculate mean temperatures for nighttime and daytime
         df_hourly['hour'] = df_hourly.index.hour
@@ -59,13 +57,13 @@ def process_files(csv_files):
         if 'temperature_mean' in df_hourly.columns:
             df_daily['temperature_daytime_mean'] = df_hourly[df_hourly['is_daytime'] == 1].resample('D')['temperature_mean'].mean()
             df_daily['temperature_nighttime_mean'] = df_hourly[df_hourly['is_daytime'] == 0].resample('D')['temperature_mean'].mean()
+            df_monthly['temperature_daytime_mean'] = df_daily['temperature_daytime_mean'].resample('M').mean()
+            df_monthly['temperature_nighttime_mean'] = df_daily['temperature_nighttime_mean'].resample('M').mean()
         else:
             print(f"Column ['temperature_mean'] missing in {file}.")
 
         # Drop temporary columns
         df_hourly.drop(['hour', 'is_daytime'], axis=1, inplace=True)
-
-
 
         # Reset index to make 'receivedAt' a column again
         df_hourly = df_hourly.reset_index()
@@ -79,6 +77,7 @@ def process_files(csv_files):
         filename = os.path.basename(file).replace(".csv", "")
         df_hourly.to_csv(f"{save_path}/{filename}_hourly.csv")
         df_daily.to_csv(f"{save_path}/{filename}_daily.csv")
+        df_monthly.to_csv(f"{save_path}/{filename}_monthly.csv")
         print("data successfully converted into cvs files.")
 
 
