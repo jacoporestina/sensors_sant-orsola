@@ -1,3 +1,4 @@
+import numpy as np
 import pandas as pd
 import scipy.stats as stats
 
@@ -46,12 +47,16 @@ with open(output_file, 'w') as f:
                 f.write(f"{'t-statistic':<12}: {t_stat:.4f}\n")
                 f.write(f"{'p-value':<12}: {p_value:.4f}\n")
 
-                # Shapiro-Wilk test for normality (per group)
-                shapiro1 = stats.shapiro(group1)
-                shapiro2 = stats.shapiro(group2)
-                f.write(f"\nShapiro-Wilk Test (Normality):\n")
-                f.write(f"{groups[0]}: W = {shapiro1.statistic:.4f}, p = {shapiro1.pvalue:.4f}\n")
-                f.write(f"{groups[1]}: W = {shapiro2.statistic:.4f}, p = {shapiro2.pvalue:.4f}\n")
+                # Shapiro-Wilk test for normality on pooled data (not per group)
+                pooled_data = np.concatenate([group1, group2])
+                if len(pooled_data) >= 3:
+                    shapiro_test = stats.shapiro(pooled_data)
+                    f.write(f"\nShapiro-Wilk Test (Normality):\n")
+                    f.write(f"Pooled groups: W = {shapiro_test.statistic:.4f}, p = {shapiro_test.pvalue:.4f}\n")
+                else:
+                    f.write(f"\nShapiro-Wilk Test (Normality):\n")
+                    f.write("Not enough data points for Shapiro-Wilk test (n < 3)\n")
+
 
                 # Bartlett test for equal variances
                 bart_stat, bart_p = stats.bartlett(group1, group2)
