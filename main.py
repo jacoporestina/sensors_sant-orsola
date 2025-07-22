@@ -1,4 +1,4 @@
-from file_processing import process_files, compute_mean_stdev, combine_par_and_termoigrometro
+from file_processing import process_files, compute_mean_stdev, combine_par_and_termoigrometro, combine_monthly_files
 
 """Main file to handle all the functions for file processing and plots."""
 
@@ -15,6 +15,16 @@ csv_files = [
     "data/PAR_control.csv",
     "data/PAR_shaded.csv",
     "data/termoigrometro_rinfrescante.csv",
+]
+
+# Specify files for monthly data processing
+file_month = [
+    "hourly_daily_data/termoigrometro_control_1_monthly.csv",
+    "hourly_daily_data/termoigrometro_control_2_monthly.csv",
+    "hourly_daily_data/termoigrometro_control_3_monthly.csv",
+    "hourly_daily_data/termoigrometro_shaded_1_monthly.csv",
+    "hourly_daily_data/termoigrometro_shaded_2_monthly.csv",
+    "hourly_daily_data/termoigrometro_shaded_3_monthly.csv",
 ]
 
 # Specify file path of data elaborated for means, max and min.
@@ -49,6 +59,9 @@ termoigrometro_rinfrescante = [
 
 # Compute hourly and daily means, max and min
 process_files(csv_files)
+
+# Combine monthly data into a single file
+combine_monthly_files(file_month)
 
 # Compute and save statistics (mean and std)
 compute_mean_stdev(termoigrometro_control_daily, "termoigrometro_control_daily")

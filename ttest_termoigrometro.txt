@@ -1,8 +1,3132 @@
 Independent t-test and Assumption Checks by Date
 ============================================================
 
-Date: 2025-04
+Date: 2024-07-31 00:00:00+00:00
 ============================================================
+
+Variable: dewpoint_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        20.2502         nan
+shaded         19.2257         nan
+------------------------------------------------------------
+
+Variable: temperature_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        25.0790         nan
+shaded         24.5487         nan
+------------------------------------------------------------
+
+Variable: humidity_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        78.2074         nan
+shaded         75.1119         nan
+------------------------------------------------------------
+
+Variable: vaporPressureDeficit_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control         1.0226         nan
+shaded          1.0386         nan
+------------------------------------------------------------
+
+Variable: dewpoint_max
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        24.5640         nan
+shaded         23.7301         nan
+------------------------------------------------------------
+
+Variable: temperature_max
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        35.7242         nan
+shaded         34.8505         nan
+------------------------------------------------------------
+
+Variable: humidity_max
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        99.4796         nan
+shaded         95.2925         nan
+------------------------------------------------------------
+
+Variable: vaporPressureDeficit_max
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control         3.1310         nan
+shaded          2.9930         nan
+------------------------------------------------------------
+
+Variable: dewpoint_min
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        16.6935         nan
+shaded         15.9559         nan
+------------------------------------------------------------
+
+Variable: temperature_min
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        16.9505         nan
+shaded         16.9645         nan
+------------------------------------------------------------
+
+Variable: humidity_min
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        47.6849         nan
+shaded         47.1774         nan
+------------------------------------------------------------
+
+Variable: vaporPressureDeficit_min
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control         0.0115         nan
+shaded          0.0933         nan
+------------------------------------------------------------
+
+Variable: temperature_daytime_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        29.6700         nan
+shaded         28.8095         nan
+------------------------------------------------------------
+
+Variable: temperature_nighttime_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        18.6517         nan
+shaded         18.5835         nan
+------------------------------------------------------------
+
+Variable: humidity_daytime_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        65.3978         nan
+shaded         63.5031         nan
+------------------------------------------------------------
+
+Variable: humidity_nighttime_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        96.1408         nan
+shaded         91.3641         nan
+------------------------------------------------------------
+
+Variable: vaporPressureDeficit_daytime_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control         1.6867         nan
+shaded          1.6417         nan
+------------------------------------------------------------
+
+Variable: vaporPressureDeficit_nighttime_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control         0.0929         nan
+shaded          0.1944         nan
+------------------------------------------------------------
+
+Date: 2024-08-31 00:00:00+00:00
+============================================================
+
+Variable: dewpoint_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        21.4661         nan
+shaded         20.4258         nan
+------------------------------------------------------------
+
+Variable: temperature_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        23.5612         nan
+shaded         23.5425         nan
+------------------------------------------------------------
+
+Variable: humidity_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        89.4628         nan
+shaded         84.2383         nan
+------------------------------------------------------------
+
+Variable: vaporPressureDeficit_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control         0.4518         nan
+shaded          0.6190         nan
+------------------------------------------------------------
+
+Variable: dewpoint_max
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        27.2602         nan
+shaded         26.5495         nan
+------------------------------------------------------------
+
+Variable: temperature_max
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        32.6344         nan
+shaded         32.8290         nan
+------------------------------------------------------------
+
+Variable: humidity_max
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        99.9871         nan
+shaded         97.6753         nan
+------------------------------------------------------------
+
+Variable: vaporPressureDeficit_max
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control         1.6517         nan
+shaded          1.9025         nan
+------------------------------------------------------------
+
+Variable: dewpoint_min
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        16.9527         nan
+shaded         16.5075         nan
+------------------------------------------------------------
+
+Variable: temperature_min
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        16.9828         nan
+shaded         17.0054         nan
+------------------------------------------------------------
+
+Variable: humidity_min
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        67.3253         nan
+shaded         61.8183         nan
+------------------------------------------------------------
+
+Variable: vaporPressureDeficit_min
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control         0.0003         nan
+shaded          0.0484         nan
+------------------------------------------------------------
+
+Variable: temperature_daytime_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        27.2786         nan
+shaded         27.2595         nan
+------------------------------------------------------------
+
+Variable: temperature_nighttime_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        18.3569         nan
+shaded         18.3387         nan
+------------------------------------------------------------
+
+Variable: humidity_daytime_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        82.7164         nan
+shaded         76.5117         nan
+------------------------------------------------------------
+
+Variable: humidity_nighttime_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        98.9077         nan
+shaded         95.0556         nan
+------------------------------------------------------------
+
+Variable: vaporPressureDeficit_daytime_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control         0.7556         nan
+shaded          0.9814         nan
+------------------------------------------------------------
+
+Variable: vaporPressureDeficit_nighttime_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control         0.0264         nan
+shaded          0.1116         nan
+------------------------------------------------------------
+
+Date: 2024-09-30 00:00:00+00:00
+============================================================
+
+Variable: dewpoint_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        14.0459         nan
+shaded         13.1983         nan
+------------------------------------------------------------
+
+Variable: temperature_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        16.8219         nan
+shaded         16.4272         nan
+------------------------------------------------------------
+
+Variable: humidity_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        86.2223         nan
+shaded         83.6812         nan
+------------------------------------------------------------
+
+Variable: vaporPressureDeficit_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control         0.3755         nan
+shaded          0.3963         nan
+------------------------------------------------------------
+
+Variable: dewpoint_max
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        18.8572         nan
+shaded         17.4183         nan
+------------------------------------------------------------
+
+Variable: temperature_max
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        26.1133         nan
+shaded         24.6178         nan
+------------------------------------------------------------
+
+Variable: humidity_max
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        98.0078         nan
+shaded         96.4756         nan
+------------------------------------------------------------
+
+Variable: vaporPressureDeficit_max
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control         1.3533         nan
+shaded          1.2433         nan
+------------------------------------------------------------
+
+Variable: dewpoint_min
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control         9.9144         nan
+shaded          9.5583         nan
+------------------------------------------------------------
+
+Variable: temperature_min
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        10.7117         nan
+shaded         10.7828         nan
+------------------------------------------------------------
+
+Variable: humidity_min
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        63.4794         nan
+shaded         62.7456         nan
+------------------------------------------------------------
+
+Variable: vaporPressureDeficit_min
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control         0.0271         nan
+shaded          0.0467         nan
+------------------------------------------------------------
+
+Variable: temperature_daytime_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        19.7756         nan
+shaded         19.0662         nan
+------------------------------------------------------------
+
+Variable: temperature_nighttime_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        12.6866         nan
+shaded         12.7327         nan
+------------------------------------------------------------
+
+Variable: humidity_daytime_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        79.7181         nan
+shaded         77.3637         nan
+------------------------------------------------------------
+
+Variable: humidity_nighttime_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        95.3282         nan
+shaded         92.5257         nan
+------------------------------------------------------------
+
+Variable: vaporPressureDeficit_daytime_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control         0.5944         nan
+shaded          0.6000         nan
+------------------------------------------------------------
+
+Variable: vaporPressureDeficit_nighttime_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control         0.0691         nan
+shaded          0.1110         nan
+------------------------------------------------------------
+
+Date: 2024-10-31 00:00:00+00:00
+============================================================
+
+Variable: dewpoint_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        12.3304         nan
+shaded         11.9972         nan
+------------------------------------------------------------
+
+Variable: temperature_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        13.1839         nan
+shaded         13.0694         nan
+------------------------------------------------------------
+
+Variable: humidity_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        95.4138         nan
+shaded         94.1178         nan
+------------------------------------------------------------
+
+Variable: vaporPressureDeficit_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control         0.1105         nan
+shaded          0.1295         nan
+------------------------------------------------------------
+
+Variable: dewpoint_max
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        16.2828         nan
+shaded         15.8349         nan
+------------------------------------------------------------
+
+Variable: temperature_max
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        20.1247         nan
+shaded         19.8323         nan
+------------------------------------------------------------
+
+Variable: humidity_max
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control       100.0000         nan
+shaded         99.8075         nan
+------------------------------------------------------------
+
+Variable: vaporPressureDeficit_max
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control         0.6028         nan
+shaded          0.6510         nan
+------------------------------------------------------------
+
+Variable: dewpoint_min
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control         9.3473         nan
+shaded          9.3108         nan
+------------------------------------------------------------
+
+Variable: temperature_min
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control         9.3473         nan
+shaded          9.3882         nan
+------------------------------------------------------------
+
+Variable: humidity_min
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        78.1414         nan
+shaded         75.5656         nan
+------------------------------------------------------------
+
+Variable: vaporPressureDeficit_min
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control         0.0000         nan
+shaded          0.0023         nan
+------------------------------------------------------------
+
+Variable: temperature_daytime_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        15.0208         nan
+shaded         14.8226         nan
+------------------------------------------------------------
+
+Variable: temperature_nighttime_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        10.6123         nan
+shaded         10.6149         nan
+------------------------------------------------------------
+
+Variable: humidity_daytime_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        92.1455         nan
+shaded         90.3438         nan
+------------------------------------------------------------
+
+Variable: humidity_nighttime_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        99.9895         nan
+shaded         99.4015         nan
+------------------------------------------------------------
+
+Variable: vaporPressureDeficit_daytime_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control         0.1893         nan
+shaded          0.2165         nan
+------------------------------------------------------------
+
+Variable: vaporPressureDeficit_nighttime_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control         0.0002         nan
+shaded          0.0077         nan
+------------------------------------------------------------
+
+Date: 2024-11-30 00:00:00+00:00
+============================================================
+
+Variable: dewpoint_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control         1.7350         nan
+shaded          1.4998         nan
+------------------------------------------------------------
+
+Variable: temperature_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control         3.4737         nan
+shaded          3.4347         nan
+------------------------------------------------------------
+
+Variable: humidity_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        90.7796         nan
+shaded         89.8056         nan
+------------------------------------------------------------
+
+Variable: vaporPressureDeficit_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control         0.1240         nan
+shaded          0.1349         nan
+------------------------------------------------------------
+
+Variable: dewpoint_max
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control         9.1072         nan
+shaded          9.0011         nan
+------------------------------------------------------------
+
+Variable: temperature_max
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        14.7500         nan
+shaded         14.9189         nan
+------------------------------------------------------------
+
+Variable: humidity_max
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        99.9422         nan
+shaded         99.8611         nan
+------------------------------------------------------------
+
+Variable: vaporPressureDeficit_max
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control         0.7636         nan
+shaded          0.8226         nan
+------------------------------------------------------------
+
+Variable: dewpoint_min
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        -2.4978         nan
+shaded         -2.5433         nan
+------------------------------------------------------------
+
+Variable: temperature_min
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        -1.9967         nan
+shaded         -1.9822         nan
+------------------------------------------------------------
+
+Variable: humidity_min
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        56.1244         nan
+shaded         53.0711         nan
+------------------------------------------------------------
+
+Variable: vaporPressureDeficit_min
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control         0.0003         nan
+shaded          0.0007         nan
+------------------------------------------------------------
+
+Variable: temperature_daytime_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control         6.1986         nan
+shaded          6.0759         nan
+------------------------------------------------------------
+
+Variable: temperature_nighttime_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        -0.3411         nan
+shaded         -0.2631         nan
+------------------------------------------------------------
+
+Variable: humidity_daytime_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        85.1242         nan
+shaded         83.7931         nan
+------------------------------------------------------------
+
+Variable: humidity_nighttime_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        98.6973         nan
+shaded         98.2230         nan
+------------------------------------------------------------
+
+Variable: vaporPressureDeficit_daytime_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control         0.2078         nan
+shaded          0.2243         nan
+------------------------------------------------------------
+
+Variable: vaporPressureDeficit_nighttime_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control         0.0068         nan
+shaded          0.0097         nan
+------------------------------------------------------------
+
+Date: 2024-12-31 00:00:00+00:00
+============================================================
+
+Variable: dewpoint_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        -1.9836         nan
+shaded         -2.1381         nan
+------------------------------------------------------------
+
+Variable: temperature_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        -0.1902         nan
+shaded         -0.1142         nan
+------------------------------------------------------------
+
+Variable: humidity_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        90.6007         nan
+shaded         89.4689         nan
+------------------------------------------------------------
+
+Variable: vaporPressureDeficit_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control         0.0891         nan
+shaded          0.0986         nan
+------------------------------------------------------------
+
+Variable: dewpoint_max
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control         3.2785         nan
+shaded          3.0688         nan
+------------------------------------------------------------
+
+Variable: temperature_max
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control         8.3527         nan
+shaded          8.6022         nan
+------------------------------------------------------------
+
+Variable: humidity_max
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        98.8720         nan
+shaded         98.6720         nan
+------------------------------------------------------------
+
+Variable: vaporPressureDeficit_max
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control         0.3752         nan
+shaded          0.4044         nan
+------------------------------------------------------------
+
+Variable: dewpoint_min
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        -5.0215         nan
+shaded         -5.1086         nan
+------------------------------------------------------------
+
+Variable: temperature_min
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        -4.2774         nan
+shaded         -4.2215         nan
+------------------------------------------------------------
+
+Variable: humidity_min
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        69.9548         nan
+shaded         67.9113         nan
+------------------------------------------------------------
+
+Variable: vaporPressureDeficit_min
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control         0.0070         nan
+shaded          0.0072         nan
+------------------------------------------------------------
+
+Variable: temperature_daytime_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control         1.3321         nan
+shaded          1.4251         nan
+------------------------------------------------------------
+
+Variable: temperature_nighttime_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        -2.3213         nan
+shaded         -2.2692         nan
+------------------------------------------------------------
+
+Variable: humidity_daytime_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        87.3800         nan
+shaded         86.0696         nan
+------------------------------------------------------------
+
+Variable: humidity_nighttime_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        95.1097         nan
+shaded         94.2278         nan
+------------------------------------------------------------
+
+Variable: vaporPressureDeficit_daytime_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control         0.1256         nan
+shaded          0.1384         nan
+------------------------------------------------------------
+
+Variable: vaporPressureDeficit_nighttime_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control         0.0380         nan
+shaded          0.0429         nan
+------------------------------------------------------------
+
+Date: 2025-01-31 00:00:00+00:00
+============================================================
+
+Variable: dewpoint_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        -0.0776         nan
+shaded         -0.1861         nan
+------------------------------------------------------------
+
+Variable: temperature_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control         0.8894         nan
+shaded          0.8899         nan
+------------------------------------------------------------
+
+Variable: humidity_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        94.4854         nan
+shaded         93.9356         nan
+------------------------------------------------------------
+
+Variable: vaporPressureDeficit_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control         0.0500         nan
+shaded          0.0545         nan
+------------------------------------------------------------
+
+Variable: dewpoint_max
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control         4.3495         nan
+shaded          4.2075         nan
+------------------------------------------------------------
+
+Variable: temperature_max
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control         8.3398         nan
+shaded          8.2882         nan
+------------------------------------------------------------
+
+Variable: humidity_max
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control       100.0000         nan
+shaded         99.9946         nan
+------------------------------------------------------------
+
+Variable: vaporPressureDeficit_max
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control         0.2925         nan
+shaded          0.3081         nan
+------------------------------------------------------------
+
+Variable: dewpoint_min
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        -3.1720         nan
+shaded         -3.2538         nan
+------------------------------------------------------------
+
+Variable: temperature_min
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        -3.0054         nan
+shaded         -3.0226         nan
+------------------------------------------------------------
+
+Variable: humidity_min
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        75.3925         nan
+shaded         74.1527         nan
+------------------------------------------------------------
+
+Variable: vaporPressureDeficit_min
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control         0.0000         nan
+shaded          0.0000         nan
+------------------------------------------------------------
+
+Variable: temperature_daytime_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control         2.3746         nan
+shaded          2.3455         nan
+------------------------------------------------------------
+
+Variable: temperature_nighttime_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        -1.1899         nan
+shaded         -1.1480         nan
+------------------------------------------------------------
+
+Variable: humidity_daytime_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        91.5029         nan
+shaded         90.7846         nan
+------------------------------------------------------------
+
+Variable: humidity_nighttime_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        98.6609         nan
+shaded         98.3471         nan
+------------------------------------------------------------
+
+Variable: vaporPressureDeficit_daytime_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control         0.0805         nan
+shaded          0.0871         nan
+------------------------------------------------------------
+
+Variable: vaporPressureDeficit_nighttime_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control         0.0074         nan
+shaded          0.0088         nan
+------------------------------------------------------------
+
+Date: 2025-02-28 00:00:00+00:00
+============================================================
+
+Variable: dewpoint_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control         2.3178         nan
+shaded          2.2207         nan
+------------------------------------------------------------
+
+Variable: temperature_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control         3.8653         nan
+shaded          3.8837         nan
+------------------------------------------------------------
+
+Variable: humidity_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        91.5485         nan
+shaded         91.1098         nan
+------------------------------------------------------------
+
+Variable: vaporPressureDeficit_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control         0.1090         nan
+shaded          0.1177         nan
+------------------------------------------------------------
+
+Variable: dewpoint_max
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control         6.6202         nan
+shaded          6.2143         nan
+------------------------------------------------------------
+
+Variable: temperature_max
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        11.9554         nan
+shaded         12.2298         nan
+------------------------------------------------------------
+
+Variable: humidity_max
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        99.9893         nan
+shaded         99.9917         nan
+------------------------------------------------------------
+
+Variable: vaporPressureDeficit_max
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control         0.5188         nan
+shaded          0.5617         nan
+------------------------------------------------------------
+
+Variable: dewpoint_min
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        -0.7524         nan
+shaded         -0.7226         nan
+------------------------------------------------------------
+
+Variable: temperature_min
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        -0.7494         nan
+shaded         -0.7214         nan
+------------------------------------------------------------
+
+Variable: humidity_min
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        67.3970         nan
+shaded         65.5702         nan
+------------------------------------------------------------
+
+Variable: vaporPressureDeficit_min
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control         0.0000         nan
+shaded          0.0000         nan
+------------------------------------------------------------
+
+Variable: temperature_daytime_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control         6.0862         nan
+shaded          6.0976         nan
+------------------------------------------------------------
+
+Variable: temperature_nighttime_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control         0.7560         nan
+shaded          0.7842         nan
+------------------------------------------------------------
+
+Variable: humidity_daytime_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        86.0796         nan
+shaded         85.2972         nan
+------------------------------------------------------------
+
+Variable: humidity_nighttime_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        99.2050         nan
+shaded         99.2474         nan
+------------------------------------------------------------
+
+Variable: vaporPressureDeficit_daytime_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control         0.1824         nan
+shaded          0.1976         nan
+------------------------------------------------------------
+
+Variable: vaporPressureDeficit_nighttime_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control         0.0062         nan
+shaded          0.0059         nan
+------------------------------------------------------------
+
+Date: 2025-03-31 00:00:00+00:00
+============================================================
+
+Variable: dewpoint_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control         5.8946         nan
+shaded          5.4476         nan
+------------------------------------------------------------
+
+Variable: temperature_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control         9.0602         nan
+shaded          8.9548         nan
+------------------------------------------------------------
+
+Variable: humidity_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        84.8400         nan
+shaded         83.3367         nan
+------------------------------------------------------------
+
+Variable: vaporPressureDeficit_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control         0.2880         nan
+shaded          0.3173         nan
+------------------------------------------------------------
+
+Variable: dewpoint_max
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        10.6333         nan
+shaded          9.7914         nan
+------------------------------------------------------------
+
+Variable: temperature_max
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        19.0366         nan
+shaded         19.1398         nan
+------------------------------------------------------------
+
+Variable: humidity_max
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        99.9484         nan
+shaded         99.6699         nan
+------------------------------------------------------------
+
+Variable: vaporPressureDeficit_max
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control         1.0420         nan
+shaded          1.1634         nan
+------------------------------------------------------------
+
+Variable: dewpoint_min
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control         2.0430         nan
+shaded          1.9269         nan
+------------------------------------------------------------
+
+Variable: temperature_min
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control         2.3183         nan
+shaded          2.2301         nan
+------------------------------------------------------------
+
+Variable: humidity_min
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        58.0054         nan
+shaded         53.3914         nan
+------------------------------------------------------------
+
+Variable: vaporPressureDeficit_min
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control         0.0004         nan
+shaded          0.0032         nan
+------------------------------------------------------------
+
+Variable: temperature_daytime_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        12.4805         nan
+shaded         12.4134         nan
+------------------------------------------------------------
+
+Variable: temperature_nighttime_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control         4.2717         nan
+shaded          4.1129         nan
+------------------------------------------------------------
+
+Variable: humidity_daytime_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        76.0611         nan
+shaded         73.8417         nan
+------------------------------------------------------------
+
+Variable: humidity_nighttime_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        97.1304         nan
+shaded         96.6298         nan
+------------------------------------------------------------
+
+Variable: vaporPressureDeficit_daytime_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control         0.4747         nan
+shaded          0.5213         nan
+------------------------------------------------------------
+
+Variable: vaporPressureDeficit_nighttime_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : nan
+p-value     : nan
+
+Shapiro-Wilk Test (Normality):
+Not enough data points for Shapiro-Wilk test (n < 3)
+
+Bartlett Test (Equal Variance): Chi-sq = nan, p = nan
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control         0.0266         nan
+shaded          0.0315         nan
+------------------------------------------------------------
+
+Date: 2025-04-30 00:00:00+00:00
+============================================================
+
+Variable: dewpoint_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : 0.9615
+p-value     : 0.3907
+
+Shapiro-Wilk Test (Normality):
+Pooled groups: W = 0.7717, p = 0.0322
+
+Bartlett Test (Equal Variance): Chi-sq = 1.9286, p = 0.1649
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        10.8199      0.1069
+shaded         10.6121      0.3587
+------------------------------------------------------------
 
 Variable: temperature_mean
 ----------------------------------------
@@ -61,6 +3185,25 @@ control         0.5160      0.0289
 shaded          0.4687      0.0258
 ------------------------------------------------------------
 
+Variable: dewpoint_max
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : 0.4178
+p-value     : 0.6975
+
+Shapiro-Wilk Test (Normality):
+Pooled groups: W = 0.8830, p = 0.2830
+
+Bartlett Test (Equal Variance): Chi-sq = 0.2723, p = 0.6018
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        14.6617      1.4153
+shaded         14.2530      0.9314
+------------------------------------------------------------
+
 Variable: temperature_max
 ----------------------------------------
 Independent t-test:
@@ -116,6 +3259,25 @@ Summary Statistics:
 Treatment         Mean     Std Dev
 control         1.6671      0.0729
 shaded          1.4419      0.0753
+------------------------------------------------------------
+
+Variable: dewpoint_min
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : 0.0123
+p-value     : 0.9908
+
+Shapiro-Wilk Test (Normality):
+Pooled groups: W = 0.6768, p = 0.0035
+
+Bartlett Test (Equal Variance): Chi-sq = 0.0014, p = 0.9698
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control         7.3370      1.2571
+shaded          7.3243      1.2952
 ------------------------------------------------------------
 
 Variable: temperature_min
@@ -213,8 +3375,103 @@ control         9.2610      0.9778
 shaded          9.2514      0.9378
 ------------------------------------------------------------
 
-Date: 2025-05
+Variable: humidity_daytime_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : -0.6910
+p-value     : 0.5276
+
+Shapiro-Wilk Test (Normality):
+Pooled groups: W = 0.8997, p = 0.3719
+
+Bartlett Test (Equal Variance): Chi-sq = 0.3897, p = 0.5325
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        70.0777      2.6325
+shaded         71.3047      1.5910
+------------------------------------------------------------
+
+Variable: humidity_nighttime_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : 0.3589
+p-value     : 0.7378
+
+Shapiro-Wilk Test (Normality):
+Pooled groups: W = 0.8024, p = 0.0618
+
+Bartlett Test (Equal Variance): Chi-sq = 4.0988, p = 0.0429
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        96.3358      1.5326
+shaded         96.0150      0.2171
+------------------------------------------------------------
+
+Variable: vaporPressureDeficit_daytime_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : 6.9393
+p-value     : 0.0023
+
+Shapiro-Wilk Test (Normality):
+Pooled groups: W = 0.8652, p = 0.2078
+
+Bartlett Test (Equal Variance): Chi-sq = 0.9832, p = 0.3214
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control         0.8221      0.0086
+shaded          0.7363      0.0196
+------------------------------------------------------------
+
+Variable: vaporPressureDeficit_nighttime_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : -0.2288
+p-value     : 0.8303
+
+Shapiro-Wilk Test (Normality):
+Pooled groups: W = 0.8492, p = 0.1552
+
+Bartlett Test (Equal Variance): Chi-sq = 1.7623, p = 0.1843
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control         0.0458      0.0220
+shaded          0.0489      0.0070
+------------------------------------------------------------
+
+Date: 2025-05-31 00:00:00+00:00
 ============================================================
+
+Variable: dewpoint_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : 0.5556
+p-value     : 0.6081
+
+Shapiro-Wilk Test (Normality):
+Pooled groups: W = 0.8032, p = 0.0628
+
+Bartlett Test (Equal Variance): Chi-sq = 0.2981, p = 0.5851
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        13.5561      1.1669
+shaded         13.1106      0.7527
+------------------------------------------------------------
 
 Variable: temperature_mean
 ----------------------------------------
@@ -273,6 +3530,25 @@ control         0.7654      0.0560
 shaded          0.6356      0.0757
 ------------------------------------------------------------
 
+Variable: dewpoint_max
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : 0.6030
+p-value     : 0.5791
+
+Shapiro-Wilk Test (Normality):
+Pooled groups: W = 0.8447, p = 0.1426
+
+Bartlett Test (Equal Variance): Chi-sq = 0.2484, p = 0.6182
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        19.2950      2.5248
+shaded         18.2366      1.6940
+------------------------------------------------------------
+
 Variable: temperature_max
 ----------------------------------------
 Independent t-test:
@@ -328,6 +3604,25 @@ Summary Statistics:
 Treatment         Mean     Std Dev
 control         2.6385      0.0660
 shaded          2.0634      0.2107
+------------------------------------------------------------
+
+Variable: dewpoint_min
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : -0.0854
+p-value     : 0.9360
+
+Shapiro-Wilk Test (Normality):
+Pooled groups: W = 0.9402, p = 0.6606
+
+Bartlett Test (Equal Variance): Chi-sq = 1.5828, p = 0.2084
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control         8.6437      0.0339
+shaded          8.6489      0.0998
 ------------------------------------------------------------
 
 Variable: temperature_min
@@ -425,8 +3720,103 @@ control        11.0329      0.0513
 shaded         10.9887      0.0639
 ------------------------------------------------------------
 
-Date: 2025-06
+Variable: humidity_daytime_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : -0.5522
+p-value     : 0.6102
+
+Shapiro-Wilk Test (Normality):
+Pooled groups: W = 0.8493, p = 0.1554
+
+Bartlett Test (Equal Variance): Chi-sq = 0.0267, p = 0.8702
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        66.6510      4.8037
+shaded         68.6896      4.2207
+------------------------------------------------------------
+
+Variable: humidity_nighttime_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : 0.2278
+p-value     : 0.8310
+
+Shapiro-Wilk Test (Normality):
+Pooled groups: W = 0.7780, p = 0.0369
+
+Bartlett Test (Equal Variance): Chi-sq = 0.3796, p = 0.5378
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        97.3245      1.9118
+shaded         97.0302      1.1633
+------------------------------------------------------------
+
+Variable: vaporPressureDeficit_daytime_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : 2.7744
+p-value     : 0.0501
+
+Shapiro-Wilk Test (Normality):
+Pooled groups: W = 0.9090, p = 0.4301
+
+Bartlett Test (Equal Variance): Chi-sq = 0.3028, p = 0.5821
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control         1.2840      0.0760
+shaded          1.0588      0.1183
+------------------------------------------------------------
+
+Variable: vaporPressureDeficit_nighttime_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : -0.1912
+p-value     : 0.8577
+
+Shapiro-Wilk Test (Normality):
+Pooled groups: W = 0.7822, p = 0.0404
+
+Bartlett Test (Equal Variance): Chi-sq = 0.4448, p = 0.5048
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control         0.0395      0.0279
+shaded          0.0431      0.0163
+------------------------------------------------------------
+
+Date: 2025-06-30 00:00:00+00:00
 ============================================================
+
+Variable: dewpoint_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : 0.6495
+p-value     : 0.5514
+
+Shapiro-Wilk Test (Normality):
+Pooled groups: W = 0.7910, p = 0.0487
+
+Bartlett Test (Equal Variance): Chi-sq = 0.5994, p = 0.4388
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        20.1125      1.4886
+shaded         19.4803      0.7918
+------------------------------------------------------------
 
 Variable: temperature_mean
 ----------------------------------------
@@ -485,6 +3875,25 @@ control         1.3349      0.1172
 shaded          1.0742      0.1081
 ------------------------------------------------------------
 
+Variable: dewpoint_max
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : 0.6734
+p-value     : 0.5376
+
+Shapiro-Wilk Test (Normality):
+Pooled groups: W = 0.8161, p = 0.0816
+
+Bartlett Test (Equal Variance): Chi-sq = 0.4748, p = 0.4908
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        26.4280      2.8193
+shaded         25.1652      1.6131
+------------------------------------------------------------
+
 Variable: temperature_max
 ----------------------------------------
 Independent t-test:
@@ -540,6 +3949,25 @@ Summary Statistics:
 Treatment         Mean     Std Dev
 control         4.2157      0.1315
 shaded          3.1521      0.2733
+------------------------------------------------------------
+
+Variable: dewpoint_min
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : 0.0662
+p-value     : 0.9504
+
+Shapiro-Wilk Test (Normality):
+Pooled groups: W = 0.9475, p = 0.7204
+
+Bartlett Test (Equal Variance): Chi-sq = 0.1043, p = 0.7468
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        14.7981      0.1550
+shaded         14.7906      0.1199
 ------------------------------------------------------------
 
 Variable: temperature_min
@@ -635,4 +4063,80 @@ Summary Statistics:
 Treatment         Mean     Std Dev
 control        17.2998      0.0261
 shaded         17.2197      0.0558
+------------------------------------------------------------
+
+Variable: humidity_daytime_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : -0.6540
+p-value     : 0.5488
+
+Shapiro-Wilk Test (Normality):
+Pooled groups: W = 0.8770, p = 0.2556
+
+Bartlett Test (Equal Variance): Chi-sq = 0.1691, p = 0.6809
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        61.8949      5.5282
+shaded         64.4675      3.9825
+------------------------------------------------------------
+
+Variable: humidity_nighttime_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : 0.2693
+p-value     : 0.8010
+
+Shapiro-Wilk Test (Normality):
+Pooled groups: W = 0.7651, p = 0.0279
+
+Bartlett Test (Equal Variance): Chi-sq = 0.6372, p = 0.4247
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        96.1129      2.5451
+shaded         95.6668      1.3257
+------------------------------------------------------------
+
+Variable: vaporPressureDeficit_daytime_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : 3.1797
+p-value     : 0.0335
+
+Shapiro-Wilk Test (Normality):
+Pooled groups: W = 0.9613, p = 0.8296
+
+Bartlett Test (Equal Variance): Chi-sq = 0.0010, p = 0.9752
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control         2.2091      0.1721
+shaded          1.7676      0.1680
+------------------------------------------------------------
+
+Variable: vaporPressureDeficit_nighttime_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : -0.2236
+p-value     : 0.8340
+
+Shapiro-Wilk Test (Normality):
+Pooled groups: W = 0.7780, p = 0.0369
+
+Bartlett Test (Equal Variance): Chi-sq = 0.6127, p = 0.4338
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control         0.0881      0.0547
+shaded          0.0961      0.0289
 ------------------------------------------------------------

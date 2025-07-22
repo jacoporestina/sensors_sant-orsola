@@ -62,6 +62,22 @@ def process_files(csv_files):
         else:
             print(f"Column ['temperature_mean'] missing in {file}.")
 
+        # Calculate mean humidity for daytime and nighttime
+        if 'humidity_mean' in df_hourly.columns:
+            df_daily['humidity_daytime_mean'] = df_hourly[df_hourly['is_daytime'] == 1].resample('D')['humidity_mean'].mean()
+            df_daily['humidity_nighttime_mean'] = df_hourly[df_hourly['is_daytime'] == 0].resample('D')['humidity_mean'].mean()
+            df_monthly['humidity_daytime_mean'] = df_daily['humidity_daytime_mean'].resample('M').mean()
+            df_monthly['humidity_nighttime_mean'] = df_daily['humidity_nighttime_mean'].resample('M').mean()
+        else:
+            print(f"Column ['humidity_mean'] missing in {file}.")
+
+        # Calculate mean VPD for daytime and nighttime
+        if 'vaporPressureDeficit_mean' in df_hourly.columns:
+            df_daily['vaporPressureDeficit_daytime_mean'] = df_hourly[df_hourly['is_daytime'] == 1].resample('D')['vaporPressureDeficit_mean'].mean()
+            df_daily['vaporPressureDeficit_nighttime_mean'] = df_hourly[df_hourly['is_daytime'] == 0].resample('D')['vaporPressureDeficit_mean'].mean()
+            df_monthly['vaporPressureDeficit_daytime_mean'] = df_daily['vaporPressureDeficit_daytime_mean'].resample('M').mean()
+            df_monthly['vaporPressureDeficit_nighttime_mean'] = df_daily['vaporPressureDeficit_nighttime_mean'].resample('M').mean()
+
         # Drop temporary columns
         df_hourly.drop(['hour', 'is_daytime'], axis=1, inplace=True)
 
@@ -80,6 +96,30 @@ def process_files(csv_files):
         df_monthly.to_csv(f"{save_path}/{filename}_monthly.csv")
         print("data successfully converted into cvs files.")
 
+
+def combine_monthly_files(file_month):
+    """Combine monthly files into a single DataFrame and save it, adding a treatment column."""
+
+    dfs = []
+    for f in file_month:
+        df = pd.read_csv(f)
+        # Determine treatment from filename
+        if "control" in os.path.basename(f).lower():
+            df["treatment"] = "control"
+        elif "shaded" in os.path.basename(f).lower():
+            df["treatment"] = "shaded"
+        else:
+            df["treatment"] = "unknown"
+        dfs.append(df)
+
+    dfs_all = pd.concat(dfs)
+
+    save_path = "input_statistics"
+    os.makedirs(save_path, exist_ok=True)
+    combined_file = os.path.join(save_path, f"termoigrometro.csv")
+    dfs_all.to_csv(combined_file, index=False)
+
+    print(f"Saved combined monthly data to {combined_file}")
 
 
 def compute_mean_stdev(file_list, group_name):
