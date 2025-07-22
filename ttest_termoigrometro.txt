@@ -1,0 +1,671 @@
+Independent t-test and Assumption Checks by Date
+============================================================
+
+Date: 2025-04
+============================================================
+
+Variable: temperature_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : 0.9019
+p-value     : 0.4181
+
+Shapiro-Wilk Test (Normality):
+control: W = 0.8155, p = 0.1521
+shaded: W = 0.9231, p = 0.4634
+
+Bartlett Test (Equal Variance): Chi-sq = 0.1194, p = 0.7297
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        14.8529      0.4547
+shaded         14.4615      0.5986
+------------------------------------------------------------
+
+Variable: humidity_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : -0.2929
+p-value     : 0.7841
+
+Shapiro-Wilk Test (Normality):
+control: W = 0.8289, p = 0.1854
+shaded: W = 0.8822, p = 0.3309
+
+Bartlett Test (Equal Variance): Chi-sq = 0.4301, p = 0.5120
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        80.3139      2.7825
+shaded         80.8600      1.6376
+------------------------------------------------------------
+
+Variable: vaporPressureDeficit_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : 2.1169
+p-value     : 0.1017
+
+Shapiro-Wilk Test (Normality):
+control: W = 0.8507, p = 0.2423
+shaded: W = 0.9971, p = 0.8977
+
+Bartlett Test (Equal Variance): Chi-sq = 0.0205, p = 0.8862
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control         0.5160      0.0289
+shaded          0.4687      0.0258
+------------------------------------------------------------
+
+Variable: temperature_max
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : 2.1764
+p-value     : 0.0951
+
+Shapiro-Wilk Test (Normality):
+control: W = 0.7856, p = 0.0805
+shaded: W = 0.8586, p = 0.2638
+
+Bartlett Test (Equal Variance): Chi-sq = 0.0132, p = 0.9085
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        24.9000      0.8706
+shaded         23.4185      0.7950
+------------------------------------------------------------
+
+Variable: humidity_max
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : 0.0113
+p-value     : 0.9915
+
+Shapiro-Wilk Test (Normality):
+control: W = 0.8017, p = 0.1185
+shaded: W = 0.8152, p = 0.1512
+
+Bartlett Test (Equal Variance): Chi-sq = 0.0530, p = 0.8178
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        96.8885      2.4366
+shaded         96.8678      2.0300
+------------------------------------------------------------
+
+Variable: vaporPressureDeficit_max
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : 3.7226
+p-value     : 0.0204
+
+Shapiro-Wilk Test (Normality):
+control: W = 0.9668, p = 0.6501
+shaded: W = 0.8814, p = 0.3287
+
+Bartlett Test (Equal Variance): Chi-sq = 0.0017, p = 0.9675
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control         1.6671      0.0729
+shaded          1.4419      0.0753
+------------------------------------------------------------
+
+Variable: temperature_min
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : -0.0170
+p-value     : 0.9873
+
+Shapiro-Wilk Test (Normality):
+control: W = 0.7612, p = 0.0248
+shaded: W = 0.8050, p = 0.1264
+
+Bartlett Test (Equal Variance): Chi-sq = 0.0013, p = 0.9708
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control         7.9930      1.6684
+shaded          8.0157      1.6208
+------------------------------------------------------------
+
+Variable: humidity_min
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : -1.9000
+p-value     : 0.1302
+
+Shapiro-Wilk Test (Normality):
+control: W = 0.9946, p = 0.8589
+shaded: W = 0.9916, p = 0.8247
+
+Bartlett Test (Equal Variance): Chi-sq = 0.5196, p = 0.4710
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        51.6961      1.7662
+shaded         53.9137      0.9836
+------------------------------------------------------------
+
+Variable: vaporPressureDeficit_min
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : -0.0777
+p-value     : 0.9418
+
+Shapiro-Wilk Test (Normality):
+control: W = 0.8004, p = 0.1155
+shaded: W = 0.8815, p = 0.3287
+
+Bartlett Test (Equal Variance): Chi-sq = 0.0006, p = 0.9809
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control         0.0574      0.0460
+shaded          0.0603      0.0451
+------------------------------------------------------------
+
+Variable: temperature_daytime_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : 4.0954
+p-value     : 0.0149
+
+Shapiro-Wilk Test (Normality):
+control: W = 0.9706, p = 0.6711
+shaded: W = 0.9862, p = 0.7755
+
+Bartlett Test (Equal Variance): Chi-sq = 0.1379, p = 0.7103
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        18.5066      0.2303
+shaded         17.8279      0.1713
+------------------------------------------------------------
+
+Variable: temperature_nighttime_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : 0.0123
+p-value     : 0.9908
+
+Shapiro-Wilk Test (Normality):
+control: W = 0.7636, p = 0.0302
+shaded: W = 0.8056, p = 0.1280
+
+Bartlett Test (Equal Variance): Chi-sq = 0.0028, p = 0.9579
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control         9.2610      0.9778
+shaded          9.2514      0.9378
+------------------------------------------------------------
+
+Date: 2025-05
+============================================================
+
+Variable: temperature_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : 4.0308
+p-value     : 0.0157
+
+Shapiro-Wilk Test (Normality):
+control: W = 0.9012, p = 0.3893
+shaded: W = 0.7786, p = 0.0644
+
+Bartlett Test (Equal Variance): Chi-sq = 3.6294, p = 0.0568
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        18.1144      0.3500
+shaded         17.2887      0.0578
+------------------------------------------------------------
+
+Variable: humidity_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : -0.3978
+p-value     : 0.7111
+
+Shapiro-Wilk Test (Normality):
+control: W = 0.7725, p = 0.0503
+shaded: W = 0.7623, p = 0.0273
+
+Bartlett Test (Equal Variance): Chi-sq = 0.0660, p = 0.7972
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        79.4317      3.5987
+shaded         80.4982      2.9350
+------------------------------------------------------------
+
+Variable: vaporPressureDeficit_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : 2.3902
+p-value     : 0.0752
+
+Shapiro-Wilk Test (Normality):
+control: W = 0.7607, p = 0.0237
+shaded: W = 0.7539, p = 0.0085
+
+Bartlett Test (Equal Variance): Chi-sq = 0.1434, p = 0.7049
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control         0.7654      0.0560
+shaded          0.6356      0.0757
+------------------------------------------------------------
+
+Variable: temperature_max
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : 3.1672
+p-value     : 0.0339
+
+Shapiro-Wilk Test (Normality):
+control: W = 0.7551, p = 0.0114
+shaded: W = 0.9966, p = 0.8889
+
+Bartlett Test (Equal Variance): Chi-sq = 2.5452, p = 0.1106
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        31.4711      1.4889
+shaded         28.6722      0.3552
+------------------------------------------------------------
+
+Variable: humidity_max
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : 0.1864
+p-value     : 0.8612
+
+Shapiro-Wilk Test (Normality):
+control: W = 0.8766, p = 0.3143
+shaded: W = 0.9984, p = 0.9237
+
+Bartlett Test (Equal Variance): Chi-sq = 0.0142, p = 0.9050
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        99.6860      0.2756
+shaded         99.6419      0.3029
+------------------------------------------------------------
+
+Variable: vaporPressureDeficit_max
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : 4.5120
+p-value     : 0.0107
+
+Shapiro-Wilk Test (Normality):
+control: W = 0.9806, p = 0.7331
+shaded: W = 0.8763, p = 0.3136
+
+Bartlett Test (Equal Variance): Chi-sq = 1.7969, p = 0.1801
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control         2.6385      0.0660
+shaded          2.0634      0.2107
+------------------------------------------------------------
+
+Variable: temperature_min
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : -0.6664
+p-value     : 0.5416
+
+Shapiro-Wilk Test (Normality):
+control: W = 0.9960, p = 0.8796
+shaded: W = 0.9032, p = 0.3956
+
+Bartlett Test (Equal Variance): Chi-sq = 0.0143, p = 0.9047
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control         8.7362      0.0690
+shaded          8.7756      0.0758
+------------------------------------------------------------
+
+Variable: humidity_min
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : -0.9584
+p-value     : 0.3922
+
+Shapiro-Wilk Test (Normality):
+control: W = 0.8951, p = 0.3701
+shaded: W = 0.8008, p = 0.1165
+
+Bartlett Test (Equal Variance): Chi-sq = 0.0067, p = 0.9349
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        47.7366      4.3501
+shaded         51.2559      4.6405
+------------------------------------------------------------
+
+Variable: vaporPressureDeficit_min
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : -0.2453
+p-value     : 0.8183
+
+Shapiro-Wilk Test (Normality):
+control: W = 0.8955, p = 0.3712
+shaded: W = 0.9992, p = 0.9458
+
+Bartlett Test (Equal Variance): Chi-sq = 0.0430, p = 0.8358
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control         0.0032      0.0028
+shaded          0.0038      0.0033
+------------------------------------------------------------
+
+Variable: temperature_daytime_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : 3.7006
+p-value     : 0.0208
+
+Shapiro-Wilk Test (Normality):
+control: W = 0.9027, p = 0.3942
+shaded: W = 0.9882, p = 0.7925
+
+Bartlett Test (Equal Variance): Chi-sq = 3.2607, p = 0.0710
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        23.1726      0.6367
+shaded         21.7887      0.1189
+------------------------------------------------------------
+
+Variable: temperature_nighttime_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : 0.9341
+p-value     : 0.4032
+
+Shapiro-Wilk Test (Normality):
+control: W = 0.9261, p = 0.4741
+shaded: W = 0.9545, p = 0.5897
+
+Bartlett Test (Equal Variance): Chi-sq = 0.0765, p = 0.7821
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        11.0329      0.0513
+shaded         10.9887      0.0639
+------------------------------------------------------------
+
+Date: 2025-06
+============================================================
+
+Variable: temperature_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : 4.4920
+p-value     : 0.0109
+
+Shapiro-Wilk Test (Normality):
+control: W = 0.9162, p = 0.4392
+shaded: W = 0.7550, p = 0.0112
+
+Bartlett Test (Equal Variance): Chi-sq = 3.6515, p = 0.0560
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        25.6760      0.4553
+shaded         24.4793      0.0747
+------------------------------------------------------------
+
+Variable: humidity_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : -0.4802
+p-value     : 0.6562
+
+Shapiro-Wilk Test (Normality):
+control: W = 0.7742, p = 0.0543
+shaded: W = 0.8282, p = 0.1838
+
+Bartlett Test (Equal Variance): Chi-sq = 0.2437, p = 0.6216
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        76.0133      4.2021
+shaded         77.4180      2.8302
+------------------------------------------------------------
+
+Variable: vaporPressureDeficit_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : 2.8326
+p-value     : 0.0472
+
+Shapiro-Wilk Test (Normality):
+control: W = 0.9003, p = 0.3863
+shaded: W = 0.8460, p = 0.2297
+
+Bartlett Test (Equal Variance): Chi-sq = 0.0105, p = 0.9183
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control         1.3349      0.1172
+shaded          1.0742      0.1081
+------------------------------------------------------------
+
+Variable: temperature_max
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : 4.8963
+p-value     : 0.0081
+
+Shapiro-Wilk Test (Normality):
+control: W = 0.8655, p = 0.2828
+shaded: W = 0.9376, p = 0.5176
+
+Bartlett Test (Equal Variance): Chi-sq = 3.3639, p = 0.0666
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        40.0130      1.2525
+shaded         36.4152      0.2260
+------------------------------------------------------------
+
+Variable: humidity_max
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : -0.0408
+p-value     : 0.9694
+
+Shapiro-Wilk Test (Normality):
+control: W = 0.7752, p = 0.0566
+shaded: W = 0.9727, p = 0.6831
+
+Bartlett Test (Equal Variance): Chi-sq = 0.0844, p = 0.7714
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        99.4072      0.5136
+shaded         99.4227      0.4078
+------------------------------------------------------------
+
+Variable: vaporPressureDeficit_max
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : 6.0745
+p-value     : 0.0037
+
+Shapiro-Wilk Test (Normality):
+control: W = 0.9903, p = 0.8113
+shaded: W = 0.7591, p = 0.0203
+
+Bartlett Test (Equal Variance): Chi-sq = 0.7891, p = 0.3744
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control         4.2157      0.1315
+shaded          3.1521      0.2733
+------------------------------------------------------------
+
+Variable: temperature_min
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : -0.6545
+p-value     : 0.5485
+
+Shapiro-Wilk Test (Normality):
+control: W = 0.9231, p = 0.4633
+shaded: W = 0.8643, p = 0.2795
+
+Bartlett Test (Equal Variance): Chi-sq = 0.2981, p = 0.5851
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        15.0415      0.0513
+shaded         15.0773      0.0795
+------------------------------------------------------------
+
+Variable: humidity_min
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : -1.1156
+p-value     : 0.3271
+
+Shapiro-Wilk Test (Normality):
+control: W = 0.7709, p = 0.0468
+shaded: W = 0.8930, p = 0.3636
+
+Bartlett Test (Equal Variance): Chi-sq = 0.0525, p = 0.8188
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        45.0541      5.4371
+shaded         49.6140      4.5342
+------------------------------------------------------------
+
+Variable: vaporPressureDeficit_min
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : 0.0238
+p-value     : 0.9821
+
+Shapiro-Wilk Test (Normality):
+control: W = 0.7756, p = 0.0575
+shaded: W = 0.9643, p = 0.6369
+
+Bartlett Test (Equal Variance): Chi-sq = 0.0850, p = 0.7707
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control         0.0111      0.0096
+shaded          0.0109      0.0076
+------------------------------------------------------------
+
+Variable: temperature_daytime_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : 4.4076
+p-value     : 0.0116
+
+Shapiro-Wilk Test (Normality):
+control: W = 0.9304, p = 0.4902
+shaded: W = 0.8725, p = 0.3028
+
+Bartlett Test (Equal Variance): Chi-sq = 3.1548, p = 0.0757
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        31.5752      0.7490
+shaded         29.6337      0.1450
+------------------------------------------------------------
+
+Variable: temperature_nighttime_mean
+----------------------------------------
+Independent t-test:
+Group 1     : control
+Group 2     : shaded
+t-statistic : 2.2523
+p-value     : 0.0874
+
+Shapiro-Wilk Test (Normality):
+control: W = 0.9398, p = 0.5265
+shaded: W = 0.9967, p = 0.8897
+
+Bartlett Test (Equal Variance): Chi-sq = 0.8482, p = 0.3571
+
+Summary Statistics:
+Treatment         Mean     Std Dev
+control        17.2998      0.0261
+shaded         17.2197      0.0558
+------------------------------------------------------------
